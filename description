@@ -1,0 +1,18 @@
+PROJET DE WEB
+
+Membres de l'équipe :
+ALIDOR Lilou
+AMRANI Benjamin 
+COUARD Lou
+GOBÉ Pauline
+
+Nom du projet : QUEL PROFESSEUR DE L'IMAC EST TON PATRONUS ? 
+
+Description du projet : 
+Nous voulons réaliser un site web qui dira à ses utilisateurs quel professeur de l'IMAC lui correspond le plus. Pour cela, nous avons envoyé un google form à tous les professeurs pour recueillir leurs réponses. Ces réponses, nous servirons à construire le socle de notre base de données.
+L'utilisateur arrivera sur le site et devra s'identifier, cela nous permettra d'accéder plus facilement à ses réponses d'une page à l'autre.
+Il pourra ensuite, soit consulter son patronus s'il a déjà fait le test, ou démarrer le questionnaire.
+Chaque question posée correspondra à une page.
+À la fin du questionnaire, nous comparerons les réponses de l'utilisateur à celles des professeurs puis attribuerons à l'utilisateur, le professeur avec qui il partage le plus de réponses.
+Si l'utilisateur quitte le questionnaire en cours de route, ou s'il décide de refaire le test, alors ses précédentes réponses seront écrasées. 
+ 
