@@ -1,0 +1,15 @@
+ERROR - 2022-04-20 08:20:35 --> Error connecting to the database: Unknown database 'popo'
+CRITICAL - 2022-04-20 08:20:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'popo'
+#0 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/app/Models/TestModel.php(14): CodeIgniter\BaseModel->findAll()
+#5 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/app/Controllers/Surnames.php(14): App\Models\TestModel->getSurnames()
+#6 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Surnames->index()
+#7 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surnames))
+#8 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/lilouali...')
+#11 {main}
