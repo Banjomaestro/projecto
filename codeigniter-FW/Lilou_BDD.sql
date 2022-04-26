@@ -55,6 +55,7 @@ CREATE TABLE quizz_Prof (
 CREATE TABLE quizz_Internaute (
     ID_ident BIGINT NOT NULL,
     ID_rep BIGINT NOT NULL,
+    mdp BINARY(16) NOT NULL,
     FOREIGN KEY(ID_ident) REFERENCES internaute(ID_ident),
     FOREIGN KEY(ID_rep) REFERENCES reponse(ID_rep),
     PRIMARY KEY(ID_ident, ID_rep)
