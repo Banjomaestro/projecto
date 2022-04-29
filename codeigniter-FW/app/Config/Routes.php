@@ -34,6 +34,7 @@ $routes->setAutoRoute(false);
 $routes->get('/', 'Home::index');
 $routes->get('surnames/(:segment)', 'Surnames::view/$1');
 $routes->get('surnames', 'Surnames::index');
+$routes->get('result', 'Result::index');
 $routes->get('(:any)', 'Pages::view/$1');
 
 /*
