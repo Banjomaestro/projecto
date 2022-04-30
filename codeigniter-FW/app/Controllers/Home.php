@@ -6,6 +6,8 @@ class Home extends BaseController
 {
     public function index()
     {
+        $session = \Config\Services::session();
+        $session->set('id', 1);
         return view('IdView/connexion');
     }
 }

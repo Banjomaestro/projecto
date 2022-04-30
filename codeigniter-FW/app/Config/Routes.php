@@ -32,6 +32,10 @@ $routes->setAutoRoute(false);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+
+$routes->get('Quiz', 'Questions::index');
+$routes->get('Questions/(:any)', 'Questions::questionDisplay');
+
 $routes->get('surnames/(:segment)', 'Surnames::view/$1');
 $routes->get('surnames', 'Surnames::index');
 $routes->match(['get','post'],'IdView/inscription', 'IdController::create');
