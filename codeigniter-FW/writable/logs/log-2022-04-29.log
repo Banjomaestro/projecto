@@ -145,6 +145,7 @@ CRITICAL - 2022-04-29 06:56:53 --> Undefined variable: identifiants_item
 #8 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #9 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
 #10 {main}
+<<<<<<< Updated upstream
 ERROR - 2022-04-29 09:15:41 --> Table 'bidon.internaute' doesn't exist
 CRITICAL - 2022-04-29 09:15:41 --> Table 'bidon.internaute' doesn't exist
 #0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Database/MySQLi/Connection.php(292): mysqli->query()
@@ -161,4 +162,22 @@ CRITICAL - 2022-04-29 09:15:41 --> Table 'bidon.internaute' doesn't exist
 #11 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
 #12 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #13 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+=======
+ERROR - 2022-04-29 08:09:17 --> Table 'pop.internaute' doesn't exist
+CRITICAL - 2022-04-29 08:09:17 --> Table 'pop.internaute' doesn't exist
+#0 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/app/Controllers/IdController.php(53): CodeIgniter\BaseModel->save(Array)
+#9 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->create()
+#10 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#11 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/lilouali...')
+>>>>>>> Stashed changes
 #14 {main}
