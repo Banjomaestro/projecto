@@ -28,7 +28,6 @@ CREATE TABLE internaute (
     ID_ident BIGINT PRIMARY KEY AUTO_INCREMENT NOT NULL,
     Identifiant VARCHAR(255) NOT NULL,
     mdp BINARY(16) NOT NULL,
-    FOREIGN KEY(ID_prof) REFERENCES prof(ID_prof)
 );
 
 CREATE TABLE question (
