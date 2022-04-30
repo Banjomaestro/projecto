@@ -27,7 +27,7 @@ CREATE TABLE prof (
 CREATE TABLE internaute (
     ID_ident BIGINT PRIMARY KEY AUTO_INCREMENT NOT NULL,
     Identifiant VARCHAR(255) NOT NULL,
-    mdp BINARY(16) NOT NULL,
+    mdp BINARY(16) NOT NULL
 );
 
 CREATE TABLE question (
