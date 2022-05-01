@@ -14,7 +14,7 @@ class reponseModel extends Model
 
     protected $primaryKey= 'ID_rep';
 
-    //protected $useAutoIncrement = true;
+    protected $useAutoIncrement = true;
 
 
     /*ENREGISTREMENT NOUVELLE REPONSE*/
