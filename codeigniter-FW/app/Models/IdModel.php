@@ -23,7 +23,7 @@ class IdModel extends Model
     //Vérifie que l'identifiant existe
     public function identifiantCheck($identifiant)
     {
-        $query=$this->where(['Identifiant'=>$identifiant])->first();
+        $query=$this->where(['Identifiant'=>$identifiant])->findAll();
 
         $size=count($query);
 
@@ -67,15 +67,11 @@ class IdModel extends Model
                 'mdp' => $mdp
             ];
             $this->insert($data);
+
+            //retourne la clé de l'internaute
+            return $this->where(['Identifiant' => $identifiant])->findColumn('ID_ident');
         } 
     }
-
-    /*RECUPERATION DE LA CLÉ DE L'INTERNAUTE (ID_ident)*/
-    public function getKeyByIdentifiant($identifiant)
-    {
-        return $this->where(['Identifiant' => $identifiant])->findColumn('ID_ident');
-    }
-
 
     /*CHANGEMENT DE MOT DE PASSE*/
 

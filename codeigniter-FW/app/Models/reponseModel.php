@@ -10,7 +10,7 @@ class reponseModel extends Model
     
     protected $table = 'reponse';
 
-    protected $allowedFields =['Libelle','Photo','ID_R'];
+    protected $allowedFields =['Libelle','Photo','ID_Q'];
 
     protected $primaryKey= 'ID_rep';
 
@@ -19,13 +19,16 @@ class reponseModel extends Model
 
     /*ENREGISTREMENT NOUVELLE REPONSE*/
 
-    public function newResponse($libelle, $photo, $id_r){
+    public function newResponse($libelle, $photo, $id_q){
         $data=[
             'Libelle' => $libelle,
             'Photo' => $photo,
-            'ID_R' => $id_r
+            'ID_Q' => $id_q
         ];
-        $this->insert($data);
+        return $this->insert_id($data);
+
+        //retourne la clé primaire de cette nouvelle réponse
+        //return $this->db->insert_id();
     }
 
     /*MODIFICATIONS REPONSE*/

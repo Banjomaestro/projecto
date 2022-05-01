@@ -17,9 +17,7 @@ class PoireTest extends BaseController
 
         $modelID = model(IdModel::class);
 
-        $modelID->subscribe('hola','hola');
-
-        $key=$modelID->getKeyByIdentifiant('hola');
+        $key=$modelID->subscribe('hola','hola');
 
         $modelID->changeMdp($key, 'hello');
 
@@ -60,7 +58,7 @@ class PoireTest extends BaseController
 
 
         //Vérification suppression
-        //$modelID->deleteIDModel($key);
+        $modelID->deleteIDModel($key);
 
 
         ///////////////////////////////////////////////////
@@ -87,9 +85,9 @@ class PoireTest extends BaseController
 
         /*VERIFICATION reponseModel*/
 
-        // $modelR=model(reponseModel::class);
+        $modelR=model(reponseModel::class);
 
-
+        //$modelR->newResponse('La chocolatine',' ','7');
 
         ///////////////////////////////////////////////////
         ///////////////////////////////////////////////////
