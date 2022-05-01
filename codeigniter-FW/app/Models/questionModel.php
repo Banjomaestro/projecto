@@ -7,7 +7,6 @@ use CodeIgniter\Model;
 
 class questionModel extends Model
 {
-    
     protected $table = 'question';
 
     protected $allowedFields =['Libelle'];
@@ -16,36 +15,17 @@ class questionModel extends Model
 
     protected $useAutoIncrement = true;
 
-    // public function getQuestions()
-    // {
 
-    //     $builder = $this->select('question');
-    //     $query = $builder->get();
-    //     $result = $query->getResult();
+    //Renvoie un tableau avec les libelés de chaque question
+    public function getAllQuestions()
+    {
+        return $this->findColumn('Libelle');
+    }
 
-    //     return $result;
-
-    // }
-
-    // public function getAll(){
-    //     $builder = $this->select('*');
-    //     $query = $builder->get();
-    //     $result = $query->getResult();
-
-    //     return $result;
-    // }
-
-    public function getQuestion(){
-        
-        $session = \Config\Services::session();
-        $id = $session->get('id');
-
-        $builder = $this->select('*');
-        $builder->where('ID_Q', $id);
-        $query = $builder->get();
-        $result = $query->getResult();
-
-        return $result;
+    //Renvoie le libelé d'une question en fonction de son id
+    public function getQuestion($id)
+    {
+        return $this->where(['ID_Q'=>$id])->findColumn('Libelle');
     }
 
 }

@@ -828,6 +828,7 @@ CRITICAL - 2022-05-01 11:08:34 --> syntax error, unexpected '$builder' (T_VARIAB
 #11 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #12 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/IMAC1_...')
 #13 {main}
+<<<<<<< HEAD
 CRITICAL - 2022-05-01 11:19:54 --> Call to a member function result() on array
 #0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Object(App\Models\quizzProfModel))
 #1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
@@ -1084,3 +1085,49 @@ CRITICAL - 2022-05-01 12:18:13 --> Undefined array key 0
 #5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
 #7 {main}
+=======
+CRITICAL - 2022-05-01 11:14:39 --> Undefined variable: query
+#0 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Models/quizzProfModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher()
+#2 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/IMAC1_...')
+#7 {main}
+CRITICAL - 2022-05-01 11:14:43 --> Undefined variable: query
+#0 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Models/quizzProfModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher()
+#2 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/IMAC1_...')
+#7 {main}
+CRITICAL - 2022-05-01 11:14:45 --> Undefined variable: query
+#0 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Models/quizzProfModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher()
+#2 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/IMAC1_...')
+#7 {main}
+CRITICAL - 2022-05-01 11:38:19 --> Undefined variable: query
+#0 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Models/quizzProfModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Controllers/PoireTest.php(71): App\Models\quizzProfModel->getTeacher()
+#2 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/IMAC1_...')
+#7 {main}
+CRITICAL - 2022-05-01 11:41:32 --> Array to string conversion
+#0 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Controllers/PoireTest.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#2 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/IMAC1_...')
+#6 {main}
+>>>>>>> 555b533a0075a9b6c7849f09d880ba2a3ef38957
