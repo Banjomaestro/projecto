@@ -7,7 +7,6 @@ use CodeIgniter\Model;
 
 class questionModel extends Model
 {
-    
     protected $table = 'question';
 
     protected $allowedFields =['Libelle'];

@@ -16,16 +16,6 @@ class reponseModel extends Model
 
     protected $useAutoIncrement = true;
 
-    // public function getQuestions()
-    // {
-
-    //     $builder = $this->select('question');
-    //     $query = $builder->get();
-    //     $result = $query->getResult();
-
-    //     return $result;
-
-    // }
 
     // public function getAll(){
     //     $builder = $this->select('*');

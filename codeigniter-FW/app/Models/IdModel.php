@@ -8,7 +8,6 @@ use CodeIgniter\Model;
 class IdModel extends Model
 {
     
-    
     protected $table = 'internaute';
 
     protected $allowedFields =['Identifiant', 'mdp'];
