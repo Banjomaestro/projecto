@@ -58,3 +58,113 @@ CRITICAL - 2022-04-30 10:49:58 --> Table 'bidon.question' doesn't exist
 #10 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #11 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
 #12 {main}
+ERROR - 2022-04-30 15:20:06 --> Error connecting to the database: Access denied for user '****'@'localhost'
+CRITICAL - 2022-04-30 15:20:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+#0 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Models/TestModel.php(14): CodeIgniter\BaseModel->findAll()
+#5 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Controllers/Surnames.php(14): App\Models\TestModel->getSurnames()
+#6 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Surnames->index()
+#7 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/IMAC1_...')
+#11 {main}
+ERROR - 2022-04-30 15:37:56 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-04-30 15:37:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Models/TestModel.php(14): CodeIgniter\BaseModel->findAll()
+#5 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Controllers/Surnames.php(14): App\Models\TestModel->getSurnames()
+#6 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Surnames->index()
+#7 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/IMAC1_...')
+#11 {main}
+ERROR - 2022-04-30 15:39:25 --> Table 'animal.surname' doesn't exist
+CRITICAL - 2022-04-30 15:39:25 --> Table 'animal.surname' doesn't exist
+#0 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Models/TestModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Controllers/Surnames.php(14): App\Models\TestModel->getSurnames()
+#8 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Surnames->index()
+#9 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/IMAC1_...')
+#13 {main}
+ERROR - 2022-04-30 16:15:50 --> Table 'animal.surname' doesn't exist
+CRITICAL - 2022-04-30 16:15:50 --> Table 'animal.surname' doesn't exist
+#0 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Models/TestModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Controllers/Surnames.php(14): App\Models\TestModel->getSurnames()
+#8 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Surnames->index()
+#9 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/IMAC1_...')
+#13 {main}
+ERROR - 2022-04-30 16:15:59 --> Table 'animal.surname' doesn't exist
+CRITICAL - 2022-04-30 16:15:59 --> Table 'animal.surname' doesn't exist
+#0 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Models/TestModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Controllers/Surnames.php(14): App\Models\TestModel->getSurnames()
+#8 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Surnames->index()
+#9 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/IMAC1_...')
+#13 {main}
+ERROR - 2022-04-30 16:16:35 --> Table 'animal.surname' doesn't exist
+CRITICAL - 2022-04-30 16:16:35 --> Table 'animal.surname' doesn't exist
+#0 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Models/TestModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Controllers/Surnames.php(14): App\Models\TestModel->getSurnames()
+#8 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Surnames->index()
+#9 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/IMAC1_...')
+#13 {main}
+ERROR - 2022-04-30 19:07:16 --> Table 'animal.surname' doesn't exist
+CRITICAL - 2022-04-30 19:07:16 --> Table 'animal.surname' doesn't exist
+#0 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Models/TestModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Controllers/Surnames.php(14): App\Models\TestModel->getSurnames()
+#8 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Surnames->index()
+#9 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/IMAC1_...')
+#13 {main}

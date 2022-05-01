@@ -42,6 +42,7 @@ $routes->match(['get','post'],'IdView/inscription', 'IdController::create');
 $routes->get('IdView/(:segment)', 'IdController::view/$1');
 $routes->get('IdView', 'IdController::index');
 $routes->get('result', 'Result::index');
+$routes->get('poireTest', 'PoireTest::index');
 $routes->get('(:any)', 'Pages::view/$1');
 
 /*

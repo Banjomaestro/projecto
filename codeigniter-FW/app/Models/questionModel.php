@@ -10,6 +10,12 @@ class questionModel extends Model
     
     protected $table = 'question';
 
+    protected $allowedFields =['Libelle'];
+
+    protected $primaryKey= 'ID_Q';
+
+    protected $useAutoIncrement = true;
+
     // public function getQuestions()
     // {
 
@@ -30,7 +36,6 @@ class questionModel extends Model
     // }
 
     public function getQuestion(){
-
         
         $session = \Config\Services::session();
         $id = $session->get('id');

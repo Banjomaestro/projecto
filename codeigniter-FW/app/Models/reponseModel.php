@@ -10,6 +10,12 @@ class reponseModel extends Model
     
     protected $table = 'reponse';
 
+    protected $allowedFields =['Libelle','Photo','ID_R'];
+
+    protected $primaryKey= 'ID_rep';
+
+    protected $useAutoIncrement = true;
+
     // public function getQuestions()
     // {
 
