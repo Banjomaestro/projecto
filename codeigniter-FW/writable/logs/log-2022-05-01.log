@@ -828,3 +828,259 @@ CRITICAL - 2022-05-01 11:08:34 --> syntax error, unexpected '$builder' (T_VARIAB
 #11 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #12 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/IMAC1_...')
 #13 {main}
+CRITICAL - 2022-05-01 11:19:54 --> Call to a member function result() on array
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Object(App\Models\quizzProfModel))
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#6 {main}
+CRITICAL - 2022-05-01 11:20:25 --> Cannot use object of type App\Models\quizzProfModel as array
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Object(App\Models\quizzProfModel))
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#6 {main}
+CRITICAL - 2022-05-01 11:20:26 --> Cannot use object of type App\Models\quizzProfModel as array
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Object(App\Models\quizzProfModel))
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#6 {main}
+CRITICAL - 2022-05-01 11:21:27 --> Call to a member function findColumn() on array
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Object(App\Models\quizzProfModel))
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#6 {main}
+CRITICAL - 2022-05-01 11:22:22 --> Call to a member function findColumn() on array
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#6 {main}
+CRITICAL - 2022-05-01 11:29:12 --> Array to string conversion
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/Users/mac/Docu...', 47)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-01 11:29:51 --> Undefined array key "ID_prof"
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mac/Docu...', 33)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-01 11:30:38 --> Undefined array key "ID_rep"
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mac/Docu...', 33)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-01 11:31:01 --> Undefined array key "ID_rep"
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mac/Docu...', 33)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-01 11:32:53 --> Array to string conversion
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/Users/mac/Docu...', 38)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-01 11:39:16 --> Call to undefined method App\Models\quizzProfModel::order_by
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(29): CodeIgniter\Model->__call('order_by', Array)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-01 11:40:22 --> Call to undefined method App\Models\quizzProfModel::order_by
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(26): CodeIgniter\Model->__call('order_by', Array)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher('')
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-01 11:52:37 --> syntax error, unexpected token "}"
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/mac/Docu...')
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\quiz...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\quiz...')
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Config/Factories.php(136): class_exists('App\\Models\\quiz...')
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Controllers...')
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Common.php(780): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(58): model('App\\Controllers...')
+#7 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#8 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#9 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#12 {main}
+CRITICAL - 2022-05-01 11:52:55 --> Undefined array key 0
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mac/Docu...', 33)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-01 11:53:23 --> Undefined array key 0
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mac/Docu...', 34)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-01 11:54:55 --> Undefined array key 0
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mac/Docu...', 34)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-01 11:57:19 --> Undefined variable $teacher
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/mac/Docu...', 37)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-01 11:58:26 --> Undefined variable $row
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/mac/Docu...', 38)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-01 12:04:52 --> Cannot access offset of type string on string
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#6 {main}
+CRITICAL - 2022-05-01 12:12:16 --> Undefined array key 12
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mac/Docu...', 35)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-01 12:12:31 --> Undefined array key 12
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mac/Docu...', 35)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-01 12:12:33 --> Undefined array key 12
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mac/Docu...', 35)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-01 12:12:47 --> Undefined array key 12
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mac/Docu...', 35)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-01 12:13:16 --> Undefined array key 12
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mac/Docu...', 35)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-01 12:14:16 --> syntax error, unexpected token "*"
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/mac/Docu...')
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\quiz...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\quiz...')
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Config/Factories.php(136): class_exists('App\\Models\\quiz...')
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Controllers...')
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Common.php(780): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(58): model('App\\Controllers...')
+#7 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#8 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#9 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#12 {main}
+CRITICAL - 2022-05-01 12:14:54 --> Undefined array key -1
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mac/Docu...', 35)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-01 12:16:23 --> Undefined array key -2
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mac/Docu...', 36)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-01 12:18:13 --> Undefined array key 0
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/mac/Docu...', 34)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/PoireTest.php(60): App\Models\quizzProfModel->getTeacher(Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PoireTest))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}

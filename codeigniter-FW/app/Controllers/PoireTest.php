@@ -57,7 +57,7 @@ class PoireTest extends BaseController
         
         $model2 = model(quizzProfModel::class);
         
-        print_r( $model2 -> getTeacher(""));
+        $model2 -> getTeacher("");
 
     }
 }

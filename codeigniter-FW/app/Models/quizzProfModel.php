@@ -20,28 +20,29 @@ class quizzProfModel extends Model
 
         $index = 0;
         $max = 0;
-        $id_prof = "";
+        $id_prof = 0;
 
-        $answers = $this->where(['ID_prof'=>"2"]);
+        $answers = $this->where(['ID_prof'=>"16"])->findAll();
+        
 
-        $builder = $this->findAll();
+        $query = $this->orderBy('ID_prof','ASC')->findAll();
+        
+        for ($y = 0; $y < 16; $y++) {
 
-        foreach ($query->result() as $teacher) {
-
-            foreach($teacher as $key=>$row){
-                
-                if($answers[$key]==$row){
+            for ($i = 0; $i < 12; $i++) {
+                if($answers[$i]['ID_rep']==$query[$i+($y*12)]['ID_rep']){
+            
                     $index++;
                 }
             }
             
             if($index>=$max){
-                $id_prof = $query -> findColumn('ID_prof');
+                $id_prof = $query[$i+($y*12)-1]['ID_prof'];
                 $max = $index;
             }
                 $index = 0;
         }
-
+        
         return $query;
     }
 
