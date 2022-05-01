@@ -85,9 +85,18 @@ class PoireTest extends BaseController
 
         /*VERIFICATION reponseModel*/
 
-        $modelR=model(reponseModel::class);
+        // $modelR=model(reponseModel::class);
 
-        //$modelR->newResponse('La chocolatine',' ','7');
+        // $key='102';
+
+        // $modelR->newResponse('La chocolatine',' ','7');
+
+        // $modelR->modifyResponseLibelle('2','Le pain au chocolat');
+
+        // $modelR->modifyResponsePhoto($key,'');
+
+        //$modelR->deleteResponse($key);
+
 
         ///////////////////////////////////////////////////
         ///////////////////////////////////////////////////

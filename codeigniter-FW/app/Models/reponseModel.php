@@ -14,7 +14,7 @@ class reponseModel extends Model
 
     protected $primaryKey= 'ID_rep';
 
-    protected $useAutoIncrement = true;
+    //protected $useAutoIncrement = true;
 
 
     /*ENREGISTREMENT NOUVELLE REPONSE*/
@@ -25,15 +25,12 @@ class reponseModel extends Model
             'Photo' => $photo,
             'ID_Q' => $id_q
         ];
-        return $this->insert_id($data);
-
-        //retourne la clé primaire de cette nouvelle réponse
-        //return $this->db->insert_id();
+        $this->insert($data);
     }
 
     /*MODIFICATIONS REPONSE*/
 
-    //libelle
+    //modif libelle
     public function modifyResponseLibelle($id_rep,$libelle)
     {
         $data=[
@@ -42,7 +39,7 @@ class reponseModel extends Model
         $this->update($id_rep,$data);
     }
 
-    //photo
+    //modif photo
     public function modifyResponsePhoto($id_rep,$photo)
     {
         $data=[
