@@ -13,51 +13,67 @@ class PoireTest extends BaseController
 
         /*VERIFICATION IDModel*/
 
-        $model = model(IdModel::class);
+        // $model = model(IdModel::class);
 
-        $model->subscribe('hola','hola');
+        // //$model->subscribe('hola','hola');
 
-        //$model->changeMdp('hola', 'hello');
+        // //$model->changeMdp('hola', 'hello');
 
-        //$model->deleteByIdentifiant('hola');
+        // //$model->deleteByIdentifiant('hola');
 
 
-        //Vérification des Check
+        // //Vérification des Check
 
-        if ($model->identifiantCheck('hola')==true){
-            echo " L'identifiant existe. ";
-        }
-        else {
-            echo " L'identifiant n'existe pas. ";
-        }
+        // if ($model->identifiantCheck('hola')==true){
+        //     echo " L'identifiant existe. ";
+        // }
+        // else {
+        //     echo " L'identifiant n'existe pas. ";
+        // }
         
-        if ($model->mdpCheck('hola', 'hello')==true){
-            echo ' Le mdp existe. ';
-        }
-        else {
-            echo " Le mdp n'existe pas. ";
-        }
+        // if ($model->mdpCheck('hola', 'hello')==true){
+        //     echo ' Le mdp existe. ';
+        // }
+        // else {
+        //     echo " Le mdp n'existe pas. ";
+        // }
         
 
-        //Vérification des GET
+        // //Vérification des GET
 
-        $idTab=$model->getAllIdentifiants();
+        // $idTab=$model->getAllIdentifiants();
 
-        foreach($idTab as $id){
-            echo $id;
-        }
+        // foreach($idTab as $id){
+        //     echo $id;
+        // }
 
-        echo "\n";
+        // echo "\n";
 
-        echo $model-> getByIdentifiant('hola')['Identifiant'];
-        echo $model-> getByIdentifiant('hola')['mdp'];
+        // echo $model-> getByIdentifiant('hola')['Identifiant'];
+        // echo $model-> getByIdentifiant('hola')['mdp'];
+
+
+
+        /*VERIFICATION questionModel*/
+
+        // $modelQ=model(questionModel::class);
+
+        // $questionTab=$modelQ->getAllQuestions();
+
+        // foreach($questionTab as $question)
+        // {
+        //     echo $question."\n";
+        // }
+
+        // echo $modelQ->getQuestion('1')[0];
+
 
 
         /*VERIFICATION ProfModel*/
         
-        $model2 = model(quizzProfModel::class);
-        
-        print_r( $model2 -> getTeacher(""));
+    // $model2 = model(quizzProfModel::class);
+    
+    // print_r( $model2 -> getTeacher(""));
 
     }
 }

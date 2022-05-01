@@ -6,8 +6,8 @@ use CodeIgniter\Model;
 
 
 class IdModel extends Model
-{   
-
+{
+    
     
     protected $table = 'internaute';
 
