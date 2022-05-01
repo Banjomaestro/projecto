@@ -23,7 +23,7 @@ class IdModel extends Model
     //Vérifie que l'identifiant existe
     public function identifiantCheck($identifiant)
     {
-        $query=$this->where(['Identifiant'=>$identifiant])->findAll();
+        $query=$this->where(['Identifiant'=>$identifiant])->first();
 
         $size=count($query);
 
@@ -38,11 +38,11 @@ class IdModel extends Model
     }
 
     //Vérifie que le mot de passe existe pour un identifiant donné
-    public function mdpCheck($identifiant, $mdp)
+    public function mdpCheck($identifiant,$mdp)
     {
  
         $query=$this->where(['Identifiant'=>$identifiant,'mdp'=>$mdp])->findAll();
-       
+
         $size=count($query);
 
         if($size>0)
@@ -64,45 +64,50 @@ class IdModel extends Model
         if ($this->identifiantCheck($identifiant)==false){ //évite des utilisateurs identiques
             $data=[
                 'Identifiant' => $identifiant,
-                'mdp' => $mdp,
+                'mdp' => $mdp
             ];
             $this->insert($data);
         } 
     }
 
+    /*RECUPERATION DE LA CLÉ DE L'INTERNAUTE (ID_ident)*/
+    public function getKeyByIdentifiant($identifiant)
+    {
+        return $this->where(['Identifiant' => $identifiant])->findColumn('ID_ident');
+    }
+
+
     /*CHANGEMENT DE MOT DE PASSE*/
 
-    // Affecte le nouveau mot de passe mis en argument à l'identifiant mis en argument 
-    public function changeMdp($identifiant, $mdp)
+    // Affecte le nouveau mot de passe mis en argument
+    public function changeMdp($key, $mdp) //Avec $key l'ID_ident
     {
-        $id=$this->where(['Identifiant' => $identifiant])->findColumn('ID_ident');
-
         $data=[
             'mdp' => $mdp
         ];
 
-        $this->where(['Identifiant' => $identifiant])->update($id,$data);
+        $this->update($key,$data);
     }
 
-    /*SUPRESSION DU COMPTE*/
 
-    public function deleteByIdentifiant($identifiant){
-        $this->where(['Identifiant' => $identifiant])->delete();
+    /*SUPRESSION DE L'IDModel*/
+
+    public function deleteIDModel($key){
+        $this->where(['ID_ident' => $key])->delete();
     }
 
 
     /*GET*/
 
-    //Renvoie un tableau de tous les noms d'utilisateurs
-    public function getAllIdentifiants()
-    {
-        return $this->findColumn('Identifiant');
+    //Renvoie toute la table
+    public function getAll(){
+        return $this->findAll();
     }
 
-    //Renvoie un tableau des informations sur un internaute en fonction de son identifiant
-    public function getByIdentifiant($identifiant = false)
+    //Renvoie un tableau des informations sur un internaute en fonction de sa clé
+    public function getByKey($key)
     {
-        return $this->where(['Identifiant' => $identifiant])->first();
+        return $this->where(['ID_ident' => $key])->first();
     }
 
 }

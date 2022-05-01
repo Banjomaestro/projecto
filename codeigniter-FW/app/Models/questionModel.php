@@ -16,16 +16,16 @@ class questionModel extends Model
     protected $useAutoIncrement = true;
 
 
-    //Renvoie un tableau avec les libelés de chaque question
-    public function getAllQuestions()
+    //Renvoie la table
+    public function getAll()
     {
-        return $this->findColumn('Libelle');
+        return $this->findAll();
     }
 
-    //Renvoie le libelé d'une question en fonction de son id
-    public function getQuestion($id)
+    //Renvoie un tableau des infos d'une question en fonction de sa clé
+    public function getByKey($key)
     {
-        return $this->where(['ID_Q'=>$id])->findColumn('Libelle');
+        return $this->where(['ID_Q'=>$key])->first();
     }
 
 }

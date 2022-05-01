@@ -10,70 +10,89 @@ class PoireTest extends BaseController
     public function index()
     {
 
+        ////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////
 
         /*VERIFICATION IDModel*/
 
-        // $model = model(IdModel::class);
+        $modelID = model(IdModel::class);
 
-        // //$model->subscribe('hola','hola');
+        $modelID->subscribe('hola','hola');
 
-        // //$model->changeMdp('hola', 'hello');
+        $key=$modelID->getKeyByIdentifiant('hola');
 
-        // //$model->deleteByIdentifiant('hola');
+        $modelID->changeMdp($key, 'hello');
 
 
-        // //Vérification des Check
+        //Vérification des Check
 
-        // if ($model->identifiantCheck('hola')==true){
-        //     echo " L'identifiant existe. ";
-        // }
-        // else {
-        //     echo " L'identifiant n'existe pas. ";
-        // }
+        if ($modelID->identifiantCheck('hola')==true){
+            echo " L'identifiant existe. ";
+        }
+        else {
+            echo " L'identifiant n'existe pas. ";
+        }
         
-        // if ($model->mdpCheck('hola', 'hello')==true){
-        //     echo ' Le mdp existe. ';
-        // }
-        // else {
-        //     echo " Le mdp n'existe pas. ";
-        // }
+        if ($modelID->mdpCheck('hola', 'hello')==true){
+            echo ' Le mdp existe. ';
+        }
+        else {
+            echo " Le mdp n'existe pas. ";
+        }
         
 
-        // //Vérification des GET
+        //Vérification des GET
 
-        // $idTab=$model->getAllIdentifiants();
+        $idTab=$modelID->getAll();
 
-        // foreach($idTab as $id){
-        //     echo $id;
-        // }
+        foreach($idTab as $id)
+        {
+            foreach($id as $value){
+                echo $value;
+            };
+            echo "\n"; 
+        }
 
-        // echo "\n";
+        echo "\n";
 
-        // echo $model-> getByIdentifiant('hola')['Identifiant'];
-        // echo $model-> getByIdentifiant('hola')['mdp'];
+        echo $modelID->getByKey($key)['Identifiant'];
+        echo $modelID->getByKey($key)['mdp'];
 
+
+        //Vérification suppression
+        //$modelID->deleteIDModel($key);
+
+
+        ///////////////////////////////////////////////////
+        ///////////////////////////////////////////////////
 
 
         /*VERIFICATION questionModel*/
 
         // $modelQ=model(questionModel::class);
 
-        // $questionTab=$modelQ->getAllQuestions();
+        // $questionTab=$modelQ->getAll();
 
         // foreach($questionTab as $question)
         // {
-        //     echo $question."\n";
+        //     echo $question['Libelle']."\n";
         // }
 
-        // echo $modelQ->getQuestion('1')[0];
+        // echo $modelQ->getByKey('1')['Libelle'];
 
-
-
-        /*VERIFICATION ProfModel*/
         
-        $model2 = model(quizzProfModel::class);
-        
-        $model2 -> getTeacher("");
+        ///////////////////////////////////////////////////
+        ///////////////////////////////////////////////////
+
+
+        /*VERIFICATION reponseModel*/
+
+        // $modelR=model(reponseModel::class);
+
+
+
+        ///////////////////////////////////////////////////
+        ///////////////////////////////////////////////////
 
     }
 }

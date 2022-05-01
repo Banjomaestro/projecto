@@ -17,26 +17,50 @@ class reponseModel extends Model
     protected $useAutoIncrement = true;
 
 
-    // public function getAll(){
-    //     $builder = $this->select('*');
-    //     $query = $builder->get();
-    //     $result = $query->getResult();
+    /*ENREGISTREMENT NOUVELLE REPONSE*/
 
-    //     return $result;
-    // }
+    public function newResponse($libelle, $photo, $id_r){
+        $data=[
+            'Libelle' => $libelle,
+            'Photo' => $photo,
+            'ID_R' => $id_r
+        ];
+        $this->insert($data);
+    }
 
+    /*MODIFICATIONS REPONSE*/
 
-    public function getAnswers(){
+    //libelle
+    public function modifyResponseLibelle($id_rep,$libelle)
+    {
+        $data=[
+            'Libelle' => $libelle
+        ];
+        $this->update($id_rep,$data);
+    }
 
-        $session = \Config\Services::session();
-        $id = $session->get('id');
+    //photo
+    public function modifyResponsePhoto($id_rep,$photo)
+    {
+        $data=[
+            'Photo' => $photo
+        ];
+        $this->update($id_rep,$data);
+    }
 
-       
-        $builder = $this->select('*');
-        $builder->where('ID_Q', $id);
-        $query = $builder->get();
-        $result = $query->getResult();
+    /*SUPPRESSION REPONSE*/
 
-        return $result;
+    public function deleteResponse($id_rep){
+        $this->where(['ID_rep' => $id_rep])->delete();
+    }
+
+    /*GET*/
+
+    public function getAll(){
+        return $this->findAll();
+    }
+
+    public function getByKey($key){
+        return $this->where(['ID_rep' => $key])->first();
     }
 }
