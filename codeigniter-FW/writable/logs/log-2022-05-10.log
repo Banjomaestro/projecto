@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ERROR - 2022-05-10 01:47:30 --> Unknown column 'mdp' in 'field list'
 CRITICAL - 2022-05-10 01:47:30 --> Unknown column 'mdp' in 'field list'
 #0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Database/MySQLi/Connection.php(292): mysqli->query()
@@ -115,3 +116,37 @@ CRITICAL - 2022-05-10 02:16:38 --> Undefined offset: 0
 #8 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #9 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
 #10 {main}
+=======
+CRITICAL - 2022-05-10 01:45:45 --> Call to undefined method App\Models\IdModel::getIdentifiant
+#0 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/app/Controllers/IdController.php(30): CodeIgniter\Model->__call('getIdentifiant', Array)
+#1 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->view('Connexion')
+#2 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#3 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/lilouali...')
+#6 {main}
+CRITICAL - 2022-05-10 01:45:53 --> Call to undefined method App\Models\IdModel::getIdentifiant
+#0 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/app/Controllers/IdController.php(30): CodeIgniter\Model->__call('getIdentifiant', Array)
+#1 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->view('connexion')
+#2 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#3 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/lilouali...')
+#6 {main}
+CRITICAL - 2022-05-10 01:46:05 --> Call to undefined method App\Models\IdModel::getIdentifiant
+#0 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/app/Controllers/IdController.php(14): CodeIgniter\Model->__call('getIdentifiant', Array)
+#1 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->index()
+#2 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#3 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/lilouali...')
+#6 {main}
+CRITICAL - 2022-05-10 01:46:27 --> Call to undefined method App\Models\IdModel::getIdentifiant
+#0 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/app/Controllers/IdController.php(30): CodeIgniter\Model->__call('getIdentifiant', Array)
+#1 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->view('overview')
+#2 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#3 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/lilouali...')
+#6 {main}
+>>>>>>> Stashed changes
