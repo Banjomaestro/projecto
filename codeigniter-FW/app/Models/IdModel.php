@@ -67,20 +67,19 @@ class IdModel extends Model
                 'mdp' => $mdp
             ];
             $this->insert($data);
-
-            //retourne la clé de l'internaute
-            return $this->where(['Identifiant' => $identifiant])->findColumn('ID_ident');
         } 
     }
 
     /*CHANGEMENT DE MOT DE PASSE*/
 
     // Affecte le nouveau mot de passe mis en argument
-    public function changeMdp($key, $mdp) //Avec $key l'ID_ident
+    public function changeMdp($identifiant, $mdp)
     {
         $data=[
             'mdp' => $mdp
         ];
+
+        $key=$this->where(['Identifiant' => $identifiant])->findColumn('ID_ident');
 
         $this->update($key,$data);
     }
@@ -88,8 +87,8 @@ class IdModel extends Model
 
     /*SUPRESSION DE L'IDModel*/
 
-    public function deleteIDModel($key){
-        $this->where(['ID_ident' => $key])->delete();
+    public function deleteIDModel($identifiant){
+        $this->where(['Identifiant' => $identifiant])->delete();
     }
 
 
@@ -101,9 +100,9 @@ class IdModel extends Model
     }
 
     //Renvoie un tableau des informations sur un internaute en fonction de sa clé
-    public function getByKey($key)
+    public function getById($identifiant)
     {
-        return $this->where(['ID_ident' => $key])->first();
+        return $this->where(['Identifiant' => $identifiant])->first();
     }
 
 }

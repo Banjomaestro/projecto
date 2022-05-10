@@ -63,4 +63,8 @@ class reponseModel extends Model
     public function getByKey($key){
         return $this->where(['ID_rep' => $key])->first();
     }
+
+    public function getByQuestion($id_q){
+        return $this->where(['ID_Q' => $id_q])->findAll();
+    }
 }
