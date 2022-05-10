@@ -20,21 +20,50 @@ class Questions extends BaseController
     //     echo view('quizView/play_quiz', $data);
     // }
 
-    public function questionDisplay(){
+    public function questionDisplay($key = 1){
 
         $questionmodel = model(questionModel::Class);
         $reponsemodel = model(reponseModel::Class);
 
         $session = \Config\Services::session();  
-        $key = $session->get('id'); 
+        $session->set('id', $key); 
         
         $data['question'] = $questionmodel->getByKey($key);
         $data['reponses'] = $reponsemodel->getByQuestion($key);
+        $data['id'] = $key;
 
-        print_r($data);
       
         echo view('quizView/questionView', $data);
     }
+
+    public function create()
+    {
+        //$model = model(ReponseModel::class);
+        $session = \Config\Services::session();  
+        $key = $session->get('id'); 
+        
+        echo $this->request->getPost('questID');
+
+        if ($this->request->getMethod() === 'post') 
+        {  
+            $value = [
+                'QuestID' => $this->request->getPost('QuestID'),
+            
+            ];
+
+            echo $this->request->getPost('QuestID');
+
+            $key++;
+
+            return redirect()->to('/Questions/'.$key);
+        } 
+        else 
+        {
+            return redirect()->to('/Questions/'.$key);
+    
+        }
+    }
+
 
     // public function view($name = null)
     // {
