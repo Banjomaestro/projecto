@@ -29,7 +29,7 @@ class Questions extends BaseController
         $key = $session->get('id'); 
         
         $data['question'] = $questionmodel->getByKey($key);
-        $data['reponses'] = $reponsemodel->getByKey($key);
+        $data['reponses'] = $reponsemodel->getByQuestion($key);
 
         print_r($data);
       
