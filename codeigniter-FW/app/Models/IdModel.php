@@ -45,6 +45,8 @@ class IdModel extends Model
 
         $size=count($query);
 
+        echo $size;
+
         if($size>0)
         {
           return true;

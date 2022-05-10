@@ -17,9 +17,9 @@ class PoireTest extends BaseController
 
         $modelID = model(IdModel::class);
 
-        $key=$modelID->subscribe('hola','hola');
+        $modelID->subscribe('hola','hola');
 
-        $modelID->changeMdp($key, 'hello');
+        $modelID->changeMdp('hola', 'hello');
 
 
         //Vérification des Check
@@ -32,10 +32,17 @@ class PoireTest extends BaseController
         }
         
         if ($modelID->mdpCheck('hola', 'hello')==true){
-            echo ' Le mdp existe. ';
+            echo ' Le mdp hello existe. ';
         }
         else {
-            echo " Le mdp n'existe pas. ";
+            echo " Le mdp hello n'existe pas. ";
+        }
+
+        if ($modelID->mdpCheck('hola', 'hola')==true){
+            echo ' Le mdp hola existe. ';
+        }
+        else {
+            echo " Le mdp hola n'existe pas. ";
         }
         
 
@@ -53,12 +60,12 @@ class PoireTest extends BaseController
 
         echo "\n";
 
-        echo $modelID->getByKey($key)['Identifiant'];
-        echo $modelID->getByKey($key)['mdp'];
+        echo $modelID->getById('hola')['Identifiant'];
+        echo $modelID->getById('hola')['mdp'];
 
 
         //Vérification suppression
-        $modelID->deleteIDModel($key);
+        $modelID->deleteIDModel('hola');
 
 
         ///////////////////////////////////////////////////
