@@ -83,7 +83,7 @@ class PoireTest extends BaseController
         ///////////////////////////////////////////////////
 
 
-        /*VERIFICATION reponseModel*/
+        /*VERIFICATION responseModel*/
 
         // $modelR=model(reponseModel::class);
 
