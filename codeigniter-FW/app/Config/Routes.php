@@ -33,6 +33,7 @@ $routes->setAutoRoute(false);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
+
 $routes->get('Quiz', 'Questions::index');
 $routes->get('Questions/(:any)', 'Questions::questionDisplay');
 
@@ -43,8 +44,8 @@ $routes->get('IdView/(:segment)', 'IdController::view/$1');
 $routes->get('IdView', 'IdController::index');
 $routes->get('result', 'Result::index');
 $routes->get('poireTest', 'PoireTest::index');
+$routes->match(['get','post'],'start', 'Start::index');
 $routes->get('(:any)', 'Pages::view/$1');
-
 /*
  * --------------------------------------------------------------------
  * Additional Routing
