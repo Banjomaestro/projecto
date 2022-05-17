@@ -26,11 +26,11 @@ class Questions extends BaseController
         $reponsemodel = model(reponseModel::Class);
 
         $session = \Config\Services::session();  
-        $session->set('id', $key); 
+        $session->set('idQ', $key); 
         
         $data['question'] = $questionmodel->getByKey($key);
         $data['reponses'] = $reponsemodel->getByQuestion($key);
-        $data['id'] = $key;
+        $data['idQ'] = $key;
 
       
         echo view('quizView/questionView', $data);
@@ -41,7 +41,7 @@ class Questions extends BaseController
         $model = model(quizzInternauteModel::class);
 
         $session = \Config\Services::session();  
-        $key = $session->get('id'); 
+        $key = $session->get('idQ'); 
         
         echo $this->request->getPost('questID');
 
@@ -51,7 +51,8 @@ class Questions extends BaseController
                 'QuestID' => $this->request->getPost('QuestID'),
             
             ];
-
+            $session = \Config\Services::session();  
+            $id_inter = $session->get('id'); 
             $model->createQuizzInternaute($id_inter, $value);
             //echo $this->request->getPost('QuestID');
 
