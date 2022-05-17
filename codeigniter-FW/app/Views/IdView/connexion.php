@@ -36,6 +36,8 @@
 
                 <div class="panel-body">
                     <form role="form" method="post" action="<?php echo base_url(''); ?>"> <!--ex:'internaute/connexion_internaute' renvoie vers la page de Benjamin-->
+                    <?= csrf_field() ?>
+
                         <fieldset>
                             <div class="form-group"  >
                                 <input class="form-control" placeholder="Identifiant" name="Identifiant" type="text" required autofocus>
@@ -56,5 +58,5 @@
 </div>
 
 
-  </body>
+</body>
 </html>

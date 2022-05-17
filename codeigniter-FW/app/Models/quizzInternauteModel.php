@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Models;
+use CodeIgniter\Model;
 
 use CodeIgniter\Model;
 
@@ -18,6 +19,7 @@ class quizzInternauteModel extends Model
   {
     return $this->findAll();
   }
+
   //la réponse d'un internaute à une question 
   public function getAnInternauteResponseByQuestion($id_ident,$id_q)
   {
@@ -25,6 +27,7 @@ class quizzInternauteModel extends Model
     $this->join('reponse','reponse.ID_rep = quizz_Internaute.ID_rep');
     return $this->where(['quizz_Internaute.ID_ident' => $id_ident, 'reponse.ID_Q' => $id_q])->findAll();
   }
+  
   //toutes les réponses d'un internaute
   public function getAllInternauteResponses($id_ident)
   {

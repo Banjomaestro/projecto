@@ -1,3 +1,124 @@
+<<<<<<< HEAD
+CRITICAL - 2022-05-10 01:48:21 --> Call to undefined method App\Models\IdModel::getIdentifiant
+#0 /var/www/projecto/codeigniter-FW/app/Controllers/IdController.php(14): CodeIgniter\Model->__call()
+#1 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->index()
+#2 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#6 {main}
+CRITICAL - 2022-05-10 01:48:26 --> Call to undefined method App\Models\IdModel::getIdentifiant
+#0 /var/www/projecto/codeigniter-FW/app/Controllers/IdController.php(30): CodeIgniter\Model->__call()
+#1 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->view()
+#2 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#6 {main}
+CRITICAL - 2022-05-10 01:48:38 --> Call to undefined method App\Models\IdModel::getIdentifiant
+#0 /var/www/projecto/codeigniter-FW/app/Controllers/IdController.php(30): CodeIgniter\Model->__call()
+#1 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->view()
+#2 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#6 {main}
+ERROR - 2022-05-10 01:49:11 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-05-10 01:49:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /var/www/projecto/codeigniter-FW/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/projecto/codeigniter-FW/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 /var/www/projecto/codeigniter-FW/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#4 /var/www/projecto/codeigniter-FW/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#5 /var/www/projecto/codeigniter-FW/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#6 /var/www/projecto/codeigniter-FW/app/Controllers/IdController.php(53): CodeIgniter\BaseModel->save()
+#7 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->create()
+#8 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#12 {main}
+ERROR - 2022-05-10 01:50:33 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-05-10 01:50:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /var/www/projecto/codeigniter-FW/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/projecto/codeigniter-FW/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 /var/www/projecto/codeigniter-FW/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#4 /var/www/projecto/codeigniter-FW/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#5 /var/www/projecto/codeigniter-FW/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#6 /var/www/projecto/codeigniter-FW/app/Controllers/IdController.php(53): CodeIgniter\BaseModel->save()
+#7 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->create()
+#8 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#12 {main}
+ERROR - 2022-05-10 01:54:56 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-05-10 01:54:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /var/www/projecto/codeigniter-FW/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/projecto/codeigniter-FW/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 /var/www/projecto/codeigniter-FW/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#4 /var/www/projecto/codeigniter-FW/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#5 /var/www/projecto/codeigniter-FW/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#6 /var/www/projecto/codeigniter-FW/app/Controllers/IdController.php(53): CodeIgniter\BaseModel->save()
+#7 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->create()
+#8 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#12 {main}
+ERROR - 2022-05-10 01:57:27 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-05-10 01:57:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /var/www/projecto/codeigniter-FW/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/projecto/codeigniter-FW/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 /var/www/projecto/codeigniter-FW/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#4 /var/www/projecto/codeigniter-FW/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#5 /var/www/projecto/codeigniter-FW/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#6 /var/www/projecto/codeigniter-FW/app/Controllers/IdController.php(53): CodeIgniter\BaseModel->save()
+#7 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->create()
+#8 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#12 {main}
+CRITICAL - 2022-05-10 01:59:42 --> Call to undefined method App\Models\IdModel::getIdentifiant
+#0 /var/www/projecto/codeigniter-FW/app/Controllers/IdController.php(14): CodeIgniter\Model->__call()
+#1 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->index()
+#2 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#6 {main}
+CRITICAL - 2022-05-10 02:22:12 --> Call to undefined method App\Controllers\IdController::identifiantCheck()
+#0 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->create()
+#1 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#5 {main}
+CRITICAL - 2022-05-10 03:26:32 --> You must supply the parameters: from, to.
+#0 /var/www/projecto/codeigniter-FW/app/Config/Routes.php(42): CodeIgniter\Router\RouteCollection->match()
+#1 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(713): require('/var/www/projec...')
+#2 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#6 {main}
+CRITICAL - 2022-05-10 03:26:36 --> You must supply the parameters: from, to.
+#0 /var/www/projecto/codeigniter-FW/app/Config/Routes.php(42): CodeIgniter\Router\RouteCollection->match()
+#1 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(713): require('/var/www/projec...')
+#2 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#6 {main}
+=======
 <<<<<<< Updated upstream
 ERROR - 2022-05-10 01:47:30 --> Unknown column 'mdp' in 'field list'
 CRITICAL - 2022-05-10 01:47:30 --> Unknown column 'mdp' in 'field list'
@@ -116,6 +237,7 @@ CRITICAL - 2022-05-10 02:16:38 --> Undefined offset: 0
 #8 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #9 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
 #10 {main}
+<<<<<<< main
 =======
 CRITICAL - 2022-05-10 01:45:45 --> Call to undefined method App\Models\IdModel::getIdentifiant
 #0 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/app/Controllers/IdController.php(30): CodeIgniter\Model->__call('getIdentifiant', Array)
@@ -150,6 +272,7 @@ CRITICAL - 2022-05-10 01:46:27 --> Call to undefined method App\Models\IdModel::
 #5 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/lilouali...')
 #6 {main}
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 CRITICAL - 2022-05-10 03:47:25 --> Undefined variable: repTab
 #0 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Controllers/PoireTest.php(99): CodeIgniter\Debug\Exceptions->errorHandler()
 #1 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
@@ -158,3 +281,219 @@ CRITICAL - 2022-05-10 03:47:25 --> Undefined variable: repTab
 #4 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #5 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/IMAC1_...')
 #6 {main}
+=======
+<<<<<<< HEAD
+=======
+CRITICAL - 2022-05-10 02:20:09 --> Trying to get property 'ID_Q' of non-object
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Views/quizView/questionView.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/View/View.php(210): include('/home/pauline/D...')
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(36): view()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->questionDisplay()
+#6 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#10 {main}
+CRITICAL - 2022-05-10 02:22:06 --> Trying to get property 'Libelle' of non-object
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Views/quizView/questionView.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/View/View.php(210): include('/home/pauline/D...')
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(36): view()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->questionDisplay()
+#6 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#10 {main}
+CRITICAL - 2022-05-10 02:22:17 --> Trying to get property 'ID_Q' of non-object
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Views/quizView/questionView.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/View/View.php(210): include('/home/pauline/D...')
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(36): view()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->questionDisplay()
+#6 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#10 {main}
+CRITICAL - 2022-05-10 02:37:16 --> Trying to access array offset on value of type null
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Views/quizView/questionView.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/View/View.php(210): include('/home/pauline/D...')
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(37): view()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->questionDisplay()
+#6 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#10 {main}
+CRITICAL - 2022-05-10 02:39:20 --> Trying to access array offset on value of type null
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Views/quizView/questionView.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/View/View.php(210): include('/home/pauline/D...')
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(37): view()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->questionDisplay()
+#6 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#10 {main}
+CRITICAL - 2022-05-10 02:39:48 --> Trying to access array offset on value of type null
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Views/quizView/questionView.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/View/View.php(210): include('/home/pauline/D...')
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(37): view()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->questionDisplay()
+#6 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#10 {main}
+CRITICAL - 2022-05-10 02:40:47 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(11): view()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->index()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#8 {main}
+CRITICAL - 2022-05-10 02:41:03 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(11): view()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->index()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#8 {main}
+CRITICAL - 2022-05-10 02:41:10 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(11): view()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->index()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#8 {main}
+CRITICAL - 2022-05-10 02:43:06 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(11): view()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->index()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#8 {main}
+CRITICAL - 2022-05-10 02:44:27 --> Trying to access array offset on value of type null
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Views/quizView/questionView.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/View/View.php(210): include('/home/pauline/D...')
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(37): view()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->questionDisplay()
+#6 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#10 {main}
+CRITICAL - 2022-05-10 03:33:44 --> Array to string conversion
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->questionDisplay()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#6 {main}
+CRITICAL - 2022-05-10 04:20:32 --> Call to undefined function App\Controllers\questionDisplay()
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->create()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#5 {main}
+CRITICAL - 2022-05-10 04:20:52 --> Call to undefined function App\Controllers\questionDisplay()
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->create()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#5 {main}
+CRITICAL - 2022-05-10 04:23:48 --> Call to undefined function App\Controllers\questionDisplay()
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->create()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#5 {main}
+CRITICAL - 2022-05-10 04:24:28 --> Call to undefined function App\Controllers\questionDisplay()
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->create()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#5 {main}
+CRITICAL - 2022-05-10 04:31:00 --> Undefined variable: thisquestionDisplay
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->create()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#6 {main}
+CRITICAL - 2022-05-10 04:32:33 --> Undefined variable: thisquestionDisplay
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->create()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#6 {main}
+CRITICAL - 2022-05-10 04:32:54 --> Undefined variable: thisquestionDisplay
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->create()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#6 {main}
+CRITICAL - 2022-05-10 04:45:51 --> Undefined variable: thisquestionDisplay
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->create()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#6 {main}
+CRITICAL - 2022-05-10 04:54:42 --> Undefined variable: thisquestionDisplay
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->create()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#6 {main}
+CRITICAL - 2022-05-10 04:55:12 --> Call to undefined function App\Controllers\questionDisplay()
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(70): App\Controllers\Questions->questionDisplay()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->create()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#6 {main}
+>>>>>>> quiz post correction
+=======
+>>>>>>> main
+>>>>>>> main
+>>>>>>> 6ea99775cdb3b43b1192da748e1f22d16611a91a

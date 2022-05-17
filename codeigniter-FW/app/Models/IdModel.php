@@ -84,6 +84,7 @@ class IdModel extends Model
             ];
             $this->insert($data);
         } 
+        
     }
 
     /*CHANGEMENT DE MOT DE PASSE*/

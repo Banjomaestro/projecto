@@ -6,7 +6,12 @@ class Pages extends BaseController
 {
     public function index()
     {
-        return view('welcome_message');
+        if (isset($this->session->id))
+        { 
+            echo view('quizView/quiz_home');
+        }
+        else 
+            return view('IdView/connexion');
     }
 
     public function view($page = 'home')
