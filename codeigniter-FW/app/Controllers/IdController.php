@@ -73,7 +73,7 @@ class IdController extends BaseController
 
         if ($this->request->getMethod() === 'post' && $model->identifiantCheck($this->request->getPost('Identifiant'))==true) 
         {  
-            if ($this->request->getMethod() === 'post' && $model->mdpCheck($this->request->getPost('Identifiant'),$this->request->getPost('mdp'))==true)
+            if ($this->request->getMethod() === 'post' && $model->mdpCheck($this->request->getPost('Identifiant'),md5($this->request->getPost('mdp'))==true)
             {
                 echo view('templates/header', ['title' => 'Accueil']);
                 echo view('IdView/successConnexion');
