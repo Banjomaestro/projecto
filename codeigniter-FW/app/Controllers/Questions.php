@@ -8,8 +8,12 @@ class Questions extends BaseController
     
     public function index(){
 
-        echo view('quizView/quiz_home');
-
+        if (isset($this->session->id))
+        { 
+            echo view('quizView/quiz_home');
+        }
+        else 
+            return view('IdView/connexion');
     }
     
     // public function quizDisplay()
