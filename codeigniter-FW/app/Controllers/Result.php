@@ -9,7 +9,7 @@ class Result extends BaseController
 
     public function index()
     {
-        $this->session->all_userdata();
+       // $this->session->all_userdata();
         return view('result/view');
     }
 }

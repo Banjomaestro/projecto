@@ -24,8 +24,14 @@ class Questions extends BaseController
 
         $questionmodel = model(questionModel::Class);
         $reponsemodel = model(reponseModel::Class);
-        $data['question'] = $questionmodel->getQuestion();
-        $data['reponses'] = $reponsemodel->getAnswers();
+
+        $session = \Config\Services::session();  
+        $key = $session->get('id'); 
+        
+        $data['question'] = $questionmodel->getByKey($key);
+        $data['reponses'] = $reponsemodel->getByQuestion($key);
+
+        print_r($data);
       
         echo view('quizView/questionView', $data);
     }
