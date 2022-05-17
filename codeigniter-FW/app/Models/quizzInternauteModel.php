@@ -2,8 +2,7 @@
 
 namespace App\Models;
 
-use App\Models\IdModel;
-use App\Models\reponseModel;
+use CodeIgniter\Model;
 
 class quizzInternauteModel extends Model
 {
@@ -23,8 +22,8 @@ class quizzInternauteModel extends Model
   public function getAnInternauteResponseByQuestion($id_ident,$id_q)
   {
     $this->getAll();
-    $this->join('question','question.ID_rep = quizz_Internaute.ID_rep');
-    return $this->where(['ID_ident' => $id_ident, 'ID_Q' => $id_q])->first();
+    $this->join('reponse','reponse.ID_rep = quizz_Internaute.ID_rep');
+    return $this->where(['quizz_Internaute.ID_ident' => $id_ident, 'reponse.ID_Q' => $id_q])->findAll();
   }
   //toutes les réponses d'un internaute
   public function getAllInternauteResponses($id_ident)
@@ -68,30 +67,48 @@ class quizzInternauteModel extends Model
     }
   }
 
+    
+  /*SUPPRIMER*/
+  //une reponse d'un internaute
+  public function deleteInternauteResponse($id_ident,$id_rep){
+    $this->where(['ID_ident' => $id_ident,'ID_rep' => $id_rep])->delete();
+  }
+  //toutes les réponses d'un internaute
+  public function deleteAllInternauteResponses($id_ident){
+    $this->where(['ID_ident' => $id_ident])->delete();
+  }
+
 
   /*NOUVELLE REPONSE D'UN INTERNAUTE*/
 
   public function createQuizzInternaute($id_ident,$id_rep)
   { 
-    if ($this->answered($id_ident,$id_rep)==false)
+    $repModel=model(reponseModel::class);
+
+    $repModel->getAll();
+
+    $id_q=$repModel->where(['reponse.ID_rep'=>$id_rep])->first()['ID_Q'];
+
+    // $this->getAll();
+    // $this->join('reponse','reponse.ID_rep = quizz_Internaute.ID_rep');
+    // $query=$this->where(['quizz_Internaute.ID_ident' => $id_ident, 'quizz_Internaute.ID_rep' => $id_rep])->first();
+    
+    // if (count(query)>0)
+    // $id_q=;
+
+    if ($id_q)
     {
-      $data=['ID_ident'=>$id_ident,
-            'ID_rep'=>$id_rep
-      ];
-      $this->insert($data);
+      $oldresponse=$this->getAnInternauteResponseByQuestion($id_ident,$id_q)['ID_rep'];
+      //écrase la réponse précédente
+      $this->deleteInternauteResponse($id_ident,$oldresponse);
     }
-    else{
-      echo "Question déjà répondue par l'internaute";
-    }
+
+    $data=[
+    'ID_ident'=>$id_ident,
+    'ID_rep'=>$id_rep
+    ];
+
+    $this->insert($data);
   }
-  
-  /*SUPPRIMER*/
-  //une reponse d'un internaute
-  public function deleteInternauteResponse($id_ident,$id_rep){
-      $this->where(['ID_ident' => $id_ident,'ID_rep' => $id_rep])->delete();
-  }
-  //toutes les réponses d'un internaute
-  public function deleteAllInternauteResponses($id_ident){
-    $this->where(['ID_ident' => $id_ident])->delete();
-}
+
 }

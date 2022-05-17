@@ -18,6 +18,19 @@ class IdModel extends Model
     protected $useAutoIncrement = true;
 
 
+    /*GET*/
+
+    //Renvoie toute la table
+    public function getAll(){
+        return $this->findAll();
+    }
+
+    //Renvoie un tableau des informations sur un internaute en fonction de sa clé
+    public function getById($identifiant)
+    {
+        return $this->where(['Identifiant' => $identifiant])->first();
+    }
+
     /* VERIFICATION DES INFORMATIONS DE CONNECTION */
 
     //Vérifie que l'identifiant existe
@@ -40,22 +53,23 @@ class IdModel extends Model
     //Vérifie que le mot de passe existe pour un identifiant donné
     public function mdpCheck($identifiant,$mdp)
     {
- 
-        $query=$this->where(['Identifiant'=>$identifiant,'mdp'=>$mdp])->findAll();
-
-        $size=count($query);
-
-        echo $size;
-
-        if($size>0)
+        if($this->identifiantCheck($identifiant)==true)
         {
-          return true;
-        }
-        else
+            $leBonMdp=$this->getById($identifiant)['mdp'];
+
+            if(trim($leBonMdp)===trim($mdp)){
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }     
+        
+        else 
         {
-          return false;
+            return false;
         }
-       
     }
 
 
@@ -91,20 +105,6 @@ class IdModel extends Model
 
     public function deleteIDModel($identifiant){
         $this->where(['Identifiant' => $identifiant])->delete();
-    }
-
-
-    /*GET*/
-
-    //Renvoie toute la table
-    public function getAll(){
-        return $this->findAll();
-    }
-
-    //Renvoie un tableau des informations sur un internaute en fonction de sa clé
-    public function getById($identifiant)
-    {
-        return $this->where(['Identifiant' => $identifiant])->first();
     }
 
 }

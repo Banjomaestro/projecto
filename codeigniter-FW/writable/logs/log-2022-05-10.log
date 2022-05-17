@@ -150,3 +150,11 @@ CRITICAL - 2022-05-10 01:46:27 --> Call to undefined method App\Models\IdModel::
 #5 /Users/liloualidor/Documents/IMAC/web/TPS2/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/lilouali...')
 #6 {main}
 >>>>>>> Stashed changes
+CRITICAL - 2022-05-10 03:47:25 --> Undefined variable: repTab
+#0 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/app/Controllers/PoireTest.php(99): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\PoireTest->index()
+#2 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/IMAC1_...')
+#6 {main}

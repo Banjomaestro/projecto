@@ -2,8 +2,7 @@
 
 namespace App\Controllers;
 
-
-use App\Models\IdModel;
+use CodeIgniter\Model;
 
 class PoireTest extends BaseController
 {
@@ -17,29 +16,29 @@ class PoireTest extends BaseController
 
         $modelID = model(IdModel::class);
 
-        $modelID->subscribe('hola','hola');
+        $modelID->subscribe('hola',md5('hola'));
 
-        $modelID->changeMdp('hola', 'hello');
+        $modelID->changeMdp('hola', md5('hello'));
 
 
         //Vérification des Check
 
-        if ($modelID->identifiantCheck('hola')==true){
+        if ($modelID->identifiantCheck('hola')){
             echo " L'identifiant existe. ";
         }
         else {
             echo " L'identifiant n'existe pas. ";
         }
         
-        if ($modelID->mdpCheck('hola', 'hello')==true){
+        if ($modelID->mdpCheck('hola', md5('hello'))){
             echo ' Le mdp hello existe. ';
         }
         else {
             echo " Le mdp hello n'existe pas. ";
         }
 
-        if ($modelID->mdpCheck('hola', 'hola')==true){
-            echo ' Le mdp hola existe. ';
+        if ($modelID->mdpCheck('hola', md5('hola'))){
+            echo "Le mdp hola existe.";
         }
         else {
             echo " Le mdp hola n'existe pas. ";
@@ -65,7 +64,7 @@ class PoireTest extends BaseController
 
 
         //Vérification suppression
-        $modelID->deleteIDModel('hola');
+       // $modelID->deleteIDModel('hola');
 
 
         ///////////////////////////////////////////////////
@@ -94,19 +93,74 @@ class PoireTest extends BaseController
 
         // $modelR=model(reponseModel::class);
 
-        // $key='102';
+        // $lesRepALaQuestion=$modelR->getByQuestion('2');
 
-        // $modelR->newResponse('La chocolatine',' ','7');
+        // foreach($lesRepALaQuestion as $rep)
+        // {
+        //     echo $rep['Libelle']; 
+        // }
 
-        // $modelR->modifyResponseLibelle('2','Le pain au chocolat');
-
-        // $modelR->modifyResponsePhoto($key,'');
-
-        //$modelR->deleteResponse($key);
+        // echo $modelR->getByKey('16')['Libelle'];
 
 
         ///////////////////////////////////////////////////
         ///////////////////////////////////////////////////
+
+        
+        /*VERIFICATION quizzInternauteModel*/
+
+        // $modelQI=model(quizzInternauteModel::class);
+        
+        // //On lui crée ses réponses
+        // //Q1
+        // $modelQI->createQuizzInternaute('joseph','5');
+        // //Q2
+        // $modelQI->createQuizzInternaute('joseph','7');
+        // //Q3
+        // $modelQI->createQuizzInternaute('joseph','11');
+        // //Q4
+        // $modelQI->createQuizzInternaute('joseph','19');
+        // //Q5 
+        // $modelQI->createQuizzInternaute('joseph','24');
+        // //On vérifie que ça écrase bien le ID_rep
+        // $modelQI->createQuizzInternaute('joseph','25');
+        // //Q6
+        // $modelQI->createQuizzInternaute('joseph','29');
+        // //Q7
+        // $modelQI->createQuizzInternaute('joseph','33');
+        // //Q8
+        // $modelQI->createQuizzInternaute('joseph','37');
+        // //Q9
+        // $modelQI->createQuizzInternaute('joseph','45');
+        // //Q10
+        // $modelQI->createQuizzInternaute('joseph','51');
+        // //Q11
+        // $modelQI->createQuizzInternaute('joseph','60');
+        // //Q12
+        // $modelQI->createQuizzInternaute('joseph','74');
+
+        // if ($modelQI->allQuestionsAnswered('joseph'))
+        // {
+        //     echo 'Joseph a tout bien répondu';
+        // }
+        // else
+        // {
+        //     echo "Joseph n'a pas tout répondu";
+        // }
+
+        // if ($modelQI->allQuestionsAnswered('joseph'))
+        // {
+        //     echo 'Joseph a tout bien répondu';
+        // }
+        // else
+        // {
+        //     echo "Joseph n'a pas tout répondu";
+        // }
+
+        // $modelQI->deleteInternauteResponse('joseph','5');
+
+
+        // $modelQI->deleteAllInternauteResponses('joseph');
 
     }
 }
