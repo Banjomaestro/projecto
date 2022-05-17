@@ -36,7 +36,9 @@ $routes->post('/', 'IdController::connexion');
 
 
 $routes->get('Quiz', 'Questions::index');
-$routes->get('Questions/(:any)', 'Questions::questionDisplay');
+$routes->match(['get','post'],'Questions/create', 'Questions::create');
+$routes->get('Questions/(:segment)', 'Questions::questionDisplay/$1');
+
 
 $routes->get('surnames/(:segment)', 'Surnames::view/$1');
 $routes->get('surnames', 'Surnames::index');
