@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    <b>Bienvenue sur votre page d'accueil :) </b>
     <div>
         <a href="Quiz">start quizz</a>
     </div>

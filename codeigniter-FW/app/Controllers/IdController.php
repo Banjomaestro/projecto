@@ -75,6 +75,8 @@ class IdController extends BaseController
         {  
             if ($this->request->getMethod() === 'post' && $model->mdpCheck($this->request->getPost('Identifiant'),$this->request->getPost('mdp'))==true)
             {
+                $session = \Config\Services::session();  
+                $session->set('id', $this->request->getPost('Identifiant'));
                 echo view('templates/header', ['title' => 'Accueil']);
                 echo view('IdView/successConnexion');
                 echo view('templates/footer');
