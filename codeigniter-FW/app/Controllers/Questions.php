@@ -43,7 +43,7 @@ class Questions extends BaseController
         $session = \Config\Services::session();  
         $key = $session->get('idQ'); 
         
-        echo $this->request->getPost('questID');
+       // echo $this->request->getPost('questID');
 
         if ($this->request->getMethod() === 'post') 
         {  

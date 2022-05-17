@@ -29,8 +29,8 @@
 
 		
 
-	<?php if($id>1){ ?>
-	<?php $previousid = $id-1 ?>
+	<?php if($idQ>1){ ?>
+	<?php $previousid = $idQ-1 ?>
 	<?= '<a href="./'.$previousid.'">Previous Question !</a>'?>
 	<?php } ?>
 	

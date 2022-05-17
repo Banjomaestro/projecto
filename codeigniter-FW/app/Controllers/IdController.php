@@ -73,10 +73,12 @@ class IdController extends BaseController
 
         if ($this->request->getMethod() === 'post' && $model->identifiantCheck($this->request->getPost('Identifiant'))==true) 
         {  
-            if ($this->request->getMethod() === 'post' && $model->mdpCheck($this->request->getPost('Identifiant'),md5($this->request->getPost('mdp'))==true)
+            if ($this->request->getMethod() === 'post' && $model->mdpCheck($this->request->getPost('Identifiant'), md5($this->request->getPost('mdp'))==true))
             {
+                $session = \Config\Services::session();  
+                $session->set('id', $key);
                 echo view('templates/header', ['title' => 'Accueil']);
-                echo view('IdView/successConnexion');
+                echo view('start/index.php');
                 echo view('templates/footer');
             }
             echo view('templates/header', ['title' => 'Mauvais mot de passe']);
