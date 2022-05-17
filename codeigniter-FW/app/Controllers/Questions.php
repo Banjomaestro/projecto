@@ -38,7 +38,8 @@ class Questions extends BaseController
 
     public function create()
     {
-        //$model = model(ReponseModel::class);
+        $model = model(quizzInternauteModel::class);
+
         $session = \Config\Services::session();  
         $key = $session->get('id'); 
         
@@ -51,7 +52,9 @@ class Questions extends BaseController
             
             ];
 
-            echo $this->request->getPost('QuestID');
+            $model->createQuizzInternaute($id_inter, $value);
+            //echo $this->request->getPost('QuestID');
+
 
             $key++;
 
