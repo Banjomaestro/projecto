@@ -14,27 +14,29 @@
 
 	<h1>Découvre qui est ton patronus !</h1>
 	
-	<?php $id = $_GET['id']; ?>
-	<?php $session = \Config\Services::session();  $session->set('id', $id) ?>
 	
-	<h2><?= $question[0]->ID_Q ?>.<?= $question[0]->Libelle ?></h2>
-	
-	<?php foreach($reponses as $oneReponse){?>
-		<input type="radio" name="questID<?=$oneReponse->ID_Q?>" value="<?=$oneReponse->Libelle?>">
-		<?= $oneReponse->Libelle ?> <br>
-	<?php } ?>
+	<h2><?= $question['ID_Q'] ?>.<?= $question['Libelle'] ?></h2>
+
+	<form action="/Questions/create" method="post">
+	<?= csrf_field() ?>
+		<?php foreach($reponses as $oneReponse){?>
+			<input type="radio" name="questID" value="<?=$oneReponse['ID_rep']?>" required>
+			<?= $oneReponse['Libelle'] ?> <br>
+		<?php } ?>
+
+		<input class="btn btn-lg btn-success btn-block" type="submit" value="Next question" name="next" >
+	</form>	
 
 		
 
 	<?php if($id>1){ ?>
 	<?php $previousid = $id-1 ?>
-	<?= '<a href="./QuestionDisplay?id='.$previousid.'">Previous Question !</a>'?>
+	<?= '<a href="./'.$previousid.'">Previous Question !</a>'?>
 	<?php } ?>
 	
-	<?php $nextid = $id+1 ?>
-	<?php if($id<12){ ?>
-	<?= '<a href="./QuestionDisplay?id='.$nextid.'">Next Question !</a>'?>
-	<?php } ?>
+	
+	
+	
 
 	
 

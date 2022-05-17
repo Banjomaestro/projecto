@@ -16,12 +16,15 @@
 
 	<p>Vous allez bientot découvir qui est votre patronus :)</p>
 
-	<?php $session = \Config\Services::session(); $id = $session->get('id'); ?>
-	<?= '<a href="/Questions/QuestionDisplay?id='.$id.'">Let\'s goooooo</a>' ?>
+	<?php $session = \Config\Services::session(); 
+	if (null===($session->get('idQ')))
+		$id = 1;
+	else
+		$id = $session->get('idQ'); ?>
+	<?= '<a href="/Questions/'.$id.'">Let\'s goooooo"</a>' ?>
 
 
 </section>
-
 
 </body>
 </html>
