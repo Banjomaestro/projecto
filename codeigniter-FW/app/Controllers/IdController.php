@@ -48,7 +48,7 @@ class IdController extends BaseController
             'Identifiant' => 'required|min_length[3]|max_length[255]',
             'mdp'  => 'required',]) && $model->identifiantCheck($this->request->getPost('Identifiant'))==false) 
         {  
-            $model->save([
+            $model->subscribe([
                 'Identifiant' => $this->request->getPost('Identifiant'),
                 'mdp'  => md5($this->request->getPost('mdp')),
             ]);
@@ -71,27 +71,27 @@ class IdController extends BaseController
     {
         $model = model(IdModel::class);
 
-        if ($this->request->getMethod() === 'post' && $model->identifiantCheck($this->request->getPost('Identifiant'))==true) 
-        {  
-            if ($this->request->getMethod() === 'post' && $model->mdpCheck($this->request->getPost('Identifiant'), md5($this->request->getPost('mdp'))==true))
-            {
-                $session = \Config\Services::session();  
-                $session->set('id', $this->request->getPost('Identifiant'));
-                echo view('templates/header', ['title' => 'Accueil']);
-                echo view('start/index.php');
-                echo view('templates/footer');
-            }
+        if ($this->request->getMethod() === 'post' && $model->identifiantCheck($this->request->getPost('Identifiant'))==true && $this->request->getMethod() === 'post' && $model->mdpCheck($this->request->getPost('Identifiant'), md5($this->request->getPost('mdp'))==true))
+        {   
+            $session = \Config\Services::session();  
+            $session->set('id', $this->request->getPost('Identifiant'));
+            echo view('templates/header', ['title' => 'Accueil']);
+            echo view('start/index.php');
+            echo view('templates/footer');
+        }
+            
+        elseif ($this->request->getMethod() === 'post' && $model->identifiantCheck($this->request->getPost('Identifiant'))==true && $this->request->getMethod() === 'post' && $model->mdpCheck($this->request->getPost('Identifiant'), md5($this->request->getPost('mdp'))==false))
+        {
             echo view('templates/header', ['title' => 'Mauvais mot de passe']);
             echo view('IdView/errorMdp');
             echo view('templates/footer');
         } 
+
         else if ($model->identifiantCheck($this->request->getPost('Identifiant'))==false){
             echo view('templates/header', ['title' => 'Identifiant non existant']);
             echo view('IdView/errorId');
             echo view('templates/footer');
         }
-      
-    
         else 
         {
             echo view('templates/header', ['title' => 'Accueil']);
