@@ -18,7 +18,7 @@ class IdModel extends Model
     protected $useAutoIncrement = true;
 
 
-    /* VERIFICATION DES INFORMATIONS DE CONNECTION */
+    /* VERIFICATION DES INFORMATIONS DE CONNEXION */
 
     //Vérifie que l'identifiant existe
     public function identifiantCheck($identifiant)
@@ -70,6 +70,7 @@ class IdModel extends Model
             ];
             $this->insert($data);
         } 
+        
     }
 
     /*CHANGEMENT DE MOT DE PASSE*/
