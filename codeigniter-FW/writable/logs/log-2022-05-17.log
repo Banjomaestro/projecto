@@ -113,8 +113,93 @@ Main connection [MySQLi]: No such file or directory
 #9 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #10 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
 #11 {main}
+<<<<<<< HEAD
+ERROR - 2022-05-17 01:51:01 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-05-17 01:51:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /var/www/projecto/codeigniter-FW/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/projecto/codeigniter-FW/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/projecto/codeigniter-FW/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /var/www/projecto/codeigniter-FW/app/Models/IdModel.php(26): CodeIgniter\BaseModel->findAll()
+#5 /var/www/projecto/codeigniter-FW/app/Controllers/IdController.php(57): App\Models\IdModel->identifiantCheck()
+#6 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->create()
+#7 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#11 {main}
+ERROR - 2022-05-17 01:53:50 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-05-17 01:53:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /var/www/projecto/codeigniter-FW/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/projecto/codeigniter-FW/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/projecto/codeigniter-FW/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /var/www/projecto/codeigniter-FW/app/Models/IdModel.php(26): CodeIgniter\BaseModel->findAll()
+#5 /var/www/projecto/codeigniter-FW/app/Controllers/IdController.php(57): App\Models\IdModel->identifiantCheck()
+#6 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->create()
+#7 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#11 {main}
+CRITICAL - 2022-05-17 02:00:16 --> Call to undefined method App\Models\IdModel::getByKey
+#0 /var/www/projecto/codeigniter-FW/app/Controllers/IdController.php(30): CodeIgniter\Model->__call()
+#1 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->view()
+#2 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#6 {main}
+ERROR - 2022-05-17 02:16:27 --> Table 'internaute.question' doesn't exist
+CRITICAL - 2022-05-17 02:16:27 --> Table 'internaute.question' doesn't exist
+#0 /var/www/projecto/codeigniter-FW/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/projecto/codeigniter-FW/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/projecto/codeigniter-FW/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/projecto/codeigniter-FW/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/projecto/codeigniter-FW/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/projecto/codeigniter-FW/app/Models/questionModel.php(28): CodeIgniter\BaseModel->first()
+#7 /var/www/projecto/codeigniter-FW/app/Controllers/Questions.php(31): App\Models\questionModel->getByKey()
+#8 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->questionDisplay()
+#9 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#13 {main}
+CRITICAL - 2022-05-17 02:26:20 --> Undefined offset: 0
+#0 /var/www/projecto/codeigniter-FW/app/Views/quizView/questionView.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/projecto/codeigniter-FW/system/View/View.php(210): include('/var/www/projec...')
+#2 /var/www/projecto/codeigniter-FW/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/projecto/codeigniter-FW/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/projecto/codeigniter-FW/app/Controllers/Questions.php(36): view()
+#5 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->questionDisplay()
+#6 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#10 {main}
+CRITICAL - 2022-05-17 02:26:40 --> Undefined offset: 0
+#0 /var/www/projecto/codeigniter-FW/app/Views/quizView/questionView.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/projecto/codeigniter-FW/system/View/View.php(210): include('/var/www/projec...')
+#2 /var/www/projecto/codeigniter-FW/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/projecto/codeigniter-FW/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/projecto/codeigniter-FW/app/Controllers/Questions.php(36): view()
+#5 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->questionDisplay()
+#6 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#10 {main}
+=======
 >>>>>>> main
+<<<<<<< HEAD
 CRITICAL - 2022-05-17 02:49:33 --> Undefined variable: id
+=======
+>>>>>>> main
+CRITICAL - 2022-05-17 02:39:34 --> Undefined variable: id
+>>>>>>> LouID
 #0 /var/www/projecto/codeigniter-FW/app/Views/quizView/questionView.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
 #1 /var/www/projecto/codeigniter-FW/system/View/View.php(210): include('/var/www/projec...')
 #2 /var/www/projecto/codeigniter-FW/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
@@ -126,6 +211,7 @@ CRITICAL - 2022-05-17 02:49:33 --> Undefined variable: id
 #8 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #9 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
 #10 {main}
+<<<<<<< HEAD
 CRITICAL - 2022-05-17 02:49:36 --> Undefined variable: id
 #0 /var/www/projecto/codeigniter-FW/app/Views/quizView/questionView.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
 #1 /var/www/projecto/codeigniter-FW/system/View/View.php(210): include('/var/www/projec...')
@@ -297,3 +383,5 @@ CRITICAL - 2022-05-17 03:03:05 --> syntax error, unexpected 'echo' (T_ECHO)
 #7 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #8 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
 #9 {main}
+=======
+>>>>>>> LouID
