@@ -206,5 +206,7 @@ class PoireTest extends BaseController
 
         $modelQI->deleteAllInternauteResponses('joseph');
 
+        $modelID->deleteIDModel('joseph');
+        
     }
 }
