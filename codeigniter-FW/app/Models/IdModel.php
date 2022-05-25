@@ -25,7 +25,7 @@ class IdModel extends Model
         return $this->findAll();
     }
 
-    //Renvoie un tableau des informations sur un internaute en fonction de sa clé
+    //Renvoie un tableau des informations sur un internaute en fonction de son identifiant
     public function getById($identifiant)
     {
         return $this->where(['Identifiant' => $identifiant])->first();
@@ -57,6 +57,9 @@ class IdModel extends Model
         {
             $leBonMdp=$this->getById($identifiant)['mdp'];
 
+            echo $leBonMdp;
+            echo "lol";
+            echo $mdp;
             if(trim($leBonMdp)===trim($mdp)){
                 return true;
             }

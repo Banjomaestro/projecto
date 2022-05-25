@@ -47,7 +47,7 @@ $routes->get('IdView/(:segment)', 'IdController::view/$1');
 $routes->get('IdView', 'IdController::index');
 $routes->get('result', 'Result::index');
 $routes->get('poireTest', 'PoireTest::index');
-$routes->match(['get','post'],'start', 'Start::index');
+$routes->match(['get','post'],'/start', 'Start::index');
 $routes->get('(:any)', 'Pages::view/$1');
 /*
  * --------------------------------------------------------------------

@@ -8,9 +8,6 @@
 </head>
 <body>
     <div>
-        <a href="Quiz">start quizz</a>
-    </div>
-    <div>
         <a href="quizz">restart quizz</a>
     </div>
     
