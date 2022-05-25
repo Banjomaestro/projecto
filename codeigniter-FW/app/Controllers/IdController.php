@@ -48,10 +48,10 @@ class IdController extends BaseController
             'Identifiant' => 'required|min_length[3]|max_length[255]',
             'mdp'  => 'required',]) && $model->identifiantCheck($this->request->getPost('Identifiant'))==false) 
         {  
-            $model->subscribe([
-                'Identifiant' => $this->request->getPost('Identifiant'),
-                'mdp'  => md5($this->request->getPost('mdp')),
-            ]);
+            $model->subscribe(
+                $this->request->getPost('Identifiant'),
+                md5($this->request->getPost('mdp')),
+              );
             echo view('IdView/success');
         } 
         else if ($model->identifiantCheck($this->request->getPost('Identifiant'))==true){

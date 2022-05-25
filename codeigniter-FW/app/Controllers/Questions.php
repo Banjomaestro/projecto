@@ -59,6 +59,8 @@ class Questions extends BaseController
             ];
             $session = \Config\Services::session();  
             $id_inter = $session->get('id'); 
+            echo $id_inter;
+            echo "nsm";
             $model->createQuizzInternaute($id_inter, $value);
             //echo $this->request->getPost('QuestID');
 
