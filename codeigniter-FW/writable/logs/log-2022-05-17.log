@@ -1425,3 +1425,309 @@ CRITICAL - 2022-05-17 04:05:22 --> md5(): Passing null to parameter #1 ($string)
 #6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
 #7 {main}
 >>>>>>> 6ea99775cdb3b43b1192da748e1f22d16611a91a
+CRITICAL - 2022-05-17 04:35:40 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing ...', '/Users/mac/Docu...', 76)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(76): md5(NULL)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-17 04:37:39 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing ...', '/Users/mac/Docu...', 76)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(76): md5(NULL)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-17 04:38:03 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing ...', '/Users/mac/Docu...', 76)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(76): md5(NULL)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-17 04:39:49 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing ...', '/Users/mac/Docu...', 78)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(78): md5(NULL)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-17 04:40:10 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing ...', '/Users/mac/Docu...', 79)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(79): md5(NULL)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-17 04:40:13 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing ...', '/Users/mac/Docu...', 79)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(79): md5(NULL)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-17 04:40:40 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing ...', '/Users/mac/Docu...', 79)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(79): md5(NULL)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-17 04:41:55 --> syntax error, unexpected token "echo", expecting "," or ";"
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/mac/Docu...')
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#8 {main}
+CRITICAL - 2022-05-17 04:42:12 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing ...', '/Users/mac/Docu...', 80)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(80): md5(NULL)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-17 04:42:16 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing ...', '/Users/mac/Docu...', 80)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(80): md5(NULL)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-17 04:42:20 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing ...', '/Users/mac/Docu...', 80)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(80): md5(NULL)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-17 04:44:13 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing ...', '/Users/mac/Docu...', 80)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(80): md5(NULL)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-17 05:07:48 -->  route cannot be found while reverse-routing.
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(82): redirect('Start/index')
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#8 {main}
+CRITICAL - 2022-05-17 05:08:46 -->  route cannot be found while reverse-routing.
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(82): redirect('/start')
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#8 {main}
+CRITICAL - 2022-05-17 05:09:52 -->  route cannot be found while reverse-routing.
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(82): redirect('/start')
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#8 {main}
+CRITICAL - 2022-05-17 05:09:58 --> Cannot use CodeIgniter\Model as Model because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-17 05:10:15 --> Cannot use CodeIgniter\Model as Model because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-17 05:10:33 -->  route cannot be found while reverse-routing.
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(82): redirect('/Quiz')
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#8 {main}
+CRITICAL - 2022-05-17 05:12:01 --> Cannot use CodeIgniter\Model as Model because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-17 05:12:31 --> Call to undefined function App\Controllers\route()
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#5 {main}
+CRITICAL - 2022-05-17 05:14:32 --> Cannot use CodeIgniter\Model as Model because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-17 05:14:52 --> Call to undefined method App\Controllers\IdController::route()
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#5 {main}
+CRITICAL - 2022-05-17 05:15:47 -->  route cannot be found while reverse-routing.
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(82): redirect('http://localhos...')
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#8 {main}
+CRITICAL - 2022-05-17 05:16:11 -->  route cannot be found while reverse-routing.
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(82): redirect('http://localhos...')
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#8 {main}
+CRITICAL - 2022-05-17 05:17:32 --> Cannot use CodeIgniter\Model as Model because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-17 05:17:44 --> Cannot use CodeIgniter\Model as Model because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-17 05:21:31 --> Trying to access array offset on value of type null
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzInternauteModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mac/Docu...', 91)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/Questions.php(59): App\Models\quizzInternauteModel->createQuizzInternaute('test', Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->create()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-17 05:27:52 -->  route cannot be found while reverse-routing.
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(82): redirect('/start')
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#8 {main}
+CRITICAL - 2022-05-17 05:28:58 -->  route cannot be found while reverse-routing.
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(82): redirect('/start')
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#8 {main}
+CRITICAL - 2022-05-17 05:29:08 -->  route cannot be found while reverse-routing.
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(82): redirect('http://localhos...', 'refresh')
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#8 {main}
+CRITICAL - 2022-05-17 05:29:23 -->  route cannot be found while reverse-routing.
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/IdController.php(82): redirect('http://localhos...', 'refresh')
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->connexion()
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IdController))
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#8 {main}
+CRITICAL - 2022-05-17 05:29:48 --> Trying to access array offset on value of type null
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzInternauteModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mac/Docu...', 91)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/Questions.php(59): App\Models\quizzInternauteModel->createQuizzInternaute('test', Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->create()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-17 05:38:48 --> Undefined property: App\Controllers\Start::$session
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/Start.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Users/mac/Docu...', 18)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Start->index()
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Start))
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#6 {main}
+CRITICAL - 2022-05-17 05:41:07 --> Trying to access array offset on value of type null
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Models/quizzInternauteModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/mac/Docu...', 91)
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/Questions.php(62): App\Models\quizzInternauteModel->createQuizzInternaute('test', Array)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->create()
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#7 {main}
+CRITICAL - 2022-05-17 05:44:41 --> Invalid file: template/header/test.php
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/header...')
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Common.php(1089): CodeIgniter\View\View->render('template/header...', Array, true)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/Start.php(25): view('template/header...')
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Start->index()
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Start))
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#8 {main}
+CRITICAL - 2022-05-17 05:46:14 --> Invalid file: template/header/test.php
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/header...')
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Common.php(1089): CodeIgniter\View\View->render('template/header...', Array, true)
+#2 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/app/Controllers/Start.php(20): view('template/header...')
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Start->index()
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Start))
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#8 {main}
+CRITICAL - 2022-05-17 05:50:00 --> syntax error, unexpected token "else", expecting ";"
+#0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/mac/Docu...')
+#1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
+#8 {main}

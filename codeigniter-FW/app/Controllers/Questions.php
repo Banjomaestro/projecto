@@ -8,9 +8,11 @@ class Questions extends BaseController
     
     public function index(){
 
-        if (isset($this->session->id))
+        $session = \Config\Services::session();  
+
+        if (isset($session->id))
         { 
-            echo view('quizView/quiz_home');
+            return view('quizView/quiz_home');
         }
         else 
             return view('IdView/connexion');

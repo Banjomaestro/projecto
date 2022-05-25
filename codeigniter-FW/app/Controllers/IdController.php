@@ -48,7 +48,7 @@ class IdController extends BaseController
             'Identifiant' => 'required|min_length[3]|max_length[255]',
             'mdp'  => 'required',]) && $model->identifiantCheck($this->request->getPost('Identifiant'))==false) 
         {  
-            $model->save([
+            $model->subscribe([
                 'Identifiant' => $this->request->getPost('Identifiant'),
                 'mdp'  => md5($this->request->getPost('mdp')),
             ]);
@@ -71,14 +71,17 @@ class IdController extends BaseController
     {
         $model = model(IdModel::class);
 
-        if ($this->request->getMethod() === 'post' && $model->identifiantCheck($this->request->getPost('Identifiant'))==true) 
+        if ($this->request->getMethod() === 'post' && $model->identifiantCheck($this->request->getPost('Identifiant'))) 
         {  
-            if ($this->request->getMethod() === 'post' && $model->mdpCheck($this->request->getPost('Identifiant'), md5($this->request->getPost('mdp'))==true))
+
+            echo md5($this->request->getPost('mdp'));
+            if ($this->request->getMethod() === 'post' && $model->mdpCheck($this->request->getPost('Identifiant'), md5($this->request->getPost('mdp'))))
             {
                 $session = \Config\Services::session();  
                 $session->set('id', $this->request->getPost('Identifiant'));
+                return redirect()->to('start');
                 echo view('templates/header', ['title' => 'Accueil']);
-                echo view('start/index.php');
+                //echo view('start/index.php');
                 echo view('templates/footer');
             }
             echo view('templates/header', ['title' => 'Mauvais mot de passe']);

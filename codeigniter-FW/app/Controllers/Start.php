@@ -9,14 +9,17 @@ class Start extends BaseController
     public function index()
     {
         $model = model(quizzInternauteModel::class);
+        $session = \Config\Services::session();  
+        $id =$session->get('id'); 
 
-        if (isset($this->session->id))
+
+        if ((true))
         { 
-
-            $testDone = $model->allQuestionsAnswered($this->session->id);
+            $testDone = $model->allQuestionsAnswered($id);
 
             if(!$testDone)
                 return view('start/indexNotDone');
+
             else
                 return view('start/indexDone');
 

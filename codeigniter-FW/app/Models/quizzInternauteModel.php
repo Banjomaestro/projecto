@@ -3,8 +3,6 @@
 namespace App\Models;
 use CodeIgniter\Model;
 
-use CodeIgniter\Model;
-
 class quizzInternauteModel extends Model
 {
   protected $table = 'quizz_Internaute';

@@ -43,7 +43,7 @@
                                 <input class="form-control" placeholder="Identifiant" name="Identifiant" type="text" required autofocus>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" placeholder="Entrez un mot de passe" name="user_password" type="password" value="" required>
+                                <input class="form-control" placeholder="Entrez un mot de passe" name="mdp" type="password" value="" required>
                             </div>
 
                                 <input class="btn btn-lg btn-success btn-block" type="submit" value="Connexion" name="connexion" >
