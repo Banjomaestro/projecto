@@ -8,7 +8,7 @@
 </head>
 <body>
     <div>
-        <a href="quizz">restart quizz</a>
+        <a href="Quiz">restart quizz</a>
     </div>
     
 </body>

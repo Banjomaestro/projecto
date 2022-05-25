@@ -21,10 +21,7 @@ class quizzProfModel extends Model
         $index = 0;
         $max = 0;
         $id_prof = 0;
-
-        $answers = $this->where(['ID_prof'=>"16"])->findAll();
         
-
         $query = $this->orderBy('ID_prof','ASC')->findAll();
         
         for ($y = 0; $y < 16; $y++) {
@@ -43,7 +40,7 @@ class quizzProfModel extends Model
                 $index = 0;
         }
         
-        return $query;
+        return $id_prof;
     }
 
 }

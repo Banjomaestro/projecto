@@ -8,6 +8,10 @@
 </head>
 <body>
     <p>here is your result, you are most similar to</p> 
+    <?php echo $Prenom?>
+    <p> </p>
+    <?php echo $Nom?>
+    <?php echo $Description?>
     <p>Insert professor name</p>
 </body>
 </html>
