@@ -9,6 +9,12 @@
 <body>
     <div>
         <a href="Quiz">restart quizz</a>
+        <div>
+            <?php echo $Prenom?>
+            <p> </p>
+            <?php echo $Nom?>
+            <?php echo $Description?>
+        </div>
     </div>
     
 </body>
