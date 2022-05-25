@@ -17,10 +17,8 @@
 	<p>Vous allez bientot découvir qui est votre patronus :)</p>
 
 	<?php $session = \Config\Services::session(); 
-	if (null===($session->get('idQ')))
-		$id = 1;
-	else
-		$id = $session->get('idQ'); ?>
+	$session->set('idQ', 1);
+	$id = 1; ?>
 	<?= '<a href="/Questions/'.$id.'">Let\'s goooooo"</a>' ?>
 
 

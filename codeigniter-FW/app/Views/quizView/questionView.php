@@ -20,11 +20,13 @@
 	<form action="/Questions/create" method="post">
 	<?= csrf_field() ?>
 		<?php foreach($reponses as $oneReponse){?>
-			<input type="radio" name="questID" value="<?=$oneReponse['ID_rep']?>" required>
+			<input type="radio" name="QuestID" value="<?=$oneReponse['ID_rep']?>" required>
 			<?= $oneReponse['Libelle'] ?> <br>
 		<?php } ?>
-
 		<input class="btn btn-lg btn-success btn-block" type="submit" value="Next question" name="next" >
+		
+
+
 	</form>	
 
 		
