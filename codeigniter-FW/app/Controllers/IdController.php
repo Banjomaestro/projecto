@@ -51,7 +51,8 @@ class IdController extends BaseController
             $model->subscribe(
                 $this->request->getPost('Identifiant'),
                 md5($this->request->getPost('mdp')),
-              );
+            );
+           
             echo view('IdView/success');
         } 
         else if ($model->identifiantCheck($this->request->getPost('Identifiant'))==true){

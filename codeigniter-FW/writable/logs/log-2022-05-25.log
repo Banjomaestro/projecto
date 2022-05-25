@@ -1,0 +1,79 @@
+CRITICAL - 2022-05-25 09:18:40 --> Too few arguments to function App\Models\IdModel::subscribe(), 1 passed in /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/IdController.php on line 53 and exactly 2 expected
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/IdController.php(53): App\Models\IdModel->subscribe()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->create()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#6 {main}
+CRITICAL - 2022-05-25 09:20:24 --> Too few arguments to function App\Models\IdModel::subscribe(), 1 passed in /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/IdController.php on line 53 and exactly 2 expected
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/IdController.php(53): App\Models\IdModel->subscribe()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->create()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#6 {main}
+CRITICAL - 2022-05-25 09:22:11 --> Too few arguments to function App\Models\IdModel::subscribe(), 1 passed in /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/IdController.php on line 53 and exactly 2 expected
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/IdController.php(53): App\Models\IdModel->subscribe()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->create()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#6 {main}
+CRITICAL - 2022-05-25 09:23:20 --> Too few arguments to function App\Models\IdModel::subscribe(), 1 passed in /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/IdController.php on line 53 and exactly 2 expected
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/IdController.php(53): App\Models\IdModel->subscribe()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->create()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#6 {main}
+CRITICAL - 2022-05-25 09:26:48 --> Trying to access array offset on value of type null
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Models/quizzInternauteModel.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(62): App\Models\quizzInternauteModel->createQuizzInternaute()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->create()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#7 {main}
+CRITICAL - 2022-05-25 09:35:51 --> Trying to access array offset on value of type null
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Models/quizzInternauteModel.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(63): App\Models\quizzInternauteModel->createQuizzInternaute()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->create()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#7 {main}
+CRITICAL - 2022-05-25 09:45:43 --> Array to string conversion
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->create()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#6 {main}
+CRITICAL - 2022-05-25 09:47:24 --> Trying to access array offset on value of type null
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Models/quizzInternauteModel.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(65): App\Models\quizzInternauteModel->createQuizzInternaute()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->create()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#7 {main}
+CRITICAL - 2022-05-25 09:52:12 --> Trying to access array offset on value of type null
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Views/quizView/questionView.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/View/View.php(210): include('/home/pauline/D...')
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Questions.php(42): view()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->questionDisplay()
+#6 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#10 {main}
