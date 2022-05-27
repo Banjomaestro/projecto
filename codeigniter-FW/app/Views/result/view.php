@@ -7,11 +7,13 @@
     <title>Result</title>
 </head>
 <body>
-    <p>Voici ton résultat, ton patronus est : </p> 
-    <?php echo $Prenom?>
-    <p> </p>
-    <?php echo $Nom?>
-    <?php echo $Description?>
-    <img src="/public/images/<?php $nom ?>.jpg" alt="">
+    <h2>Voici ton résultat, ton patronus est : </h2> 
+    <p><?php echo $Prenom?></p>
+    <p><?php echo $Nom?> </p>
+    
+    <p><img src="/public/images/<?=$Nom?>.jpg" alt="image non trouvée"></p>
+    
+    <p><?php echo $Description?></p>
+    <!-- <img src="/public/images/<?php $Nom ?>.jpg" alt=""> -->
 </body>
 </html>

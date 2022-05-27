@@ -29,7 +29,7 @@
 
 	</form>	
 
-		
+	
 
 	<?php if($idQ>1){ ?>
 	<?php $previousid = $idQ-1 ?>

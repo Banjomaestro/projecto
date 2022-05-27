@@ -387,3 +387,30 @@ CRITICAL - 2022-05-25 10:58:49 --> Class "App\Controllers\CI_Controller" not fou
 #7 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #8 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
 #9 {main}
+CRITICAL - 2022-05-25 11:23:43 --> Undefined offset: 0
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Result.php(24): App\Models\quizzProfModel->getTeacher()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Result->index()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#7 {main}
+CRITICAL - 2022-05-25 11:27:52 --> Undefined offset: 0
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Result.php(24): App\Models\quizzProfModel->getTeacher()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Result->index()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#7 {main}
+CRITICAL - 2022-05-25 11:29:53 --> Undefined offset: 1
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Models/quizzProfModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/app/Controllers/Result.php(24): App\Models\quizzProfModel->getTeacher()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Result->index()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#7 {main}

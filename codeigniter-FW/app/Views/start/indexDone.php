@@ -10,10 +10,13 @@
     <div>
         <a href="Quiz">restart quizz</a>
         <div>
-            <?php echo $Prenom?>
-            <p> </p>
-            <?php echo $Nom?>
-            <?php echo $Description?>
+            <h2>Te revoilà ! Ton résultat est : </h2>
+            <p><?php echo $Prenom?></p>
+            <p> <?php echo $Nom?></p>
+            <p><img src="./images/<?= $Nom ?>.jpg" alt="image non trouvée"></p>
+            <p><?php echo $Description?></p>
+            
+            
         </div>
     </div>
     

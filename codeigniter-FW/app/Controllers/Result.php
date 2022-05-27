@@ -10,7 +10,7 @@ class Result extends BaseController
 
     public function index()
     {
-
+        
         $model = model(quizzProfModel::class);
         $model2 = model(quizzInternauteModel::class);
         $model3 = model(teacherModel::class);
