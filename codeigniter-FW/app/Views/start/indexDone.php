@@ -13,7 +13,8 @@
             <h2>Te revoilà ! Ton résultat est : </h2>
             <p><?php echo $Prenom?></p>
             <p> <?php echo $Nom?></p>
-            <p><img src="./images/<?= $Nom ?>.jpg" alt="image non trouvée"></p>
+            <?php echo img('/images/9.jpg'); ?>
+            <!-- <p><link rel="image prof" type="image/jpg" href="/images/9.jpg"/></p> -->
             <p><?php echo $Description?></p>
             
             
