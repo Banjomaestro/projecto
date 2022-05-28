@@ -15,5 +15,7 @@
     
     <p><?php echo $Description?></p>
     <!-- <img src="/public/images/<?php $Nom ?>.jpg" alt=""> -->
+
+    <a href="/start">Retour à l'accueil</a>
 </body>
 </html>
