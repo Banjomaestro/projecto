@@ -31,6 +31,9 @@
 					<div class="oneReponse">
 						<input type="radio" name="QuestID" value="<?=$oneReponse['ID_rep']?>" required>
 						<?= $oneReponse['Libelle'] ?> <br>
+					
+					<img src="<?=URL?>images/quiz/<?=$oneReponse['Photo'] ?>.jpg" alt="">
+					
 					</div>
 				<?php } ?>
 
