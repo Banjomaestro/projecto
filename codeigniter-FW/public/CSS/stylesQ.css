@@ -92,6 +92,12 @@ input[type="submit"]{
     cursor: pointer;
     height: 3rem;
     font-family: "Suez One";
+    font-size: 2em;
+}
+
+input[type="submit"]:hover{
+    background-color: tomato;
+    color: white;
 }
 
 input[type = "radio"]{
@@ -111,8 +117,22 @@ img{
 }
 
 a{
-    border : 5px solid;
+    border : 2px solid;
     border-color: tomato;
     background-color: white;
-    padding: 3px;
+    color: midnightblue;
+    padding: 10px;
+    outline: none;
+    text-decoration: none;
+    font-family: "Suez One";
+    font-size: 1em;
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+a:hover{
+    background-color: tomato;
+    color: white;
 }
