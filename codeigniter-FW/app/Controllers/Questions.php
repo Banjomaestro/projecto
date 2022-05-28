@@ -49,6 +49,7 @@ class Questions extends BaseController
         $session = \Config\Services::session();  
         $key = $session->get('idQ'); 
         
+        
        // echo $this->request->getPost('questID');
 
         if ($this->request->getMethod() === 'post') 
@@ -57,15 +58,21 @@ class Questions extends BaseController
                 'QuestID' => $this->request->getPost('QuestID'),
             
             ];
+            print_r ($value);
             $session = \Config\Services::session();  
             $id_inter = $session->get('id'); 
+            echo $id_inter;
             $model->createQuizzInternaute($id_inter, $value);
             //echo $this->request->getPost('QuestID');
 
 
             $key++;
-
+            if($key >12){
+                return redirect()->to('/result');
+            }
+            else{
             return redirect()->to('/Questions/'.$key);
+            }
         } 
         else 
         {

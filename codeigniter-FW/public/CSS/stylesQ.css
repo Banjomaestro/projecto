@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Righteous&family=Suez+One&family=Titan+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: mistyrose;
+    color: darkblue;
+}
+
+.head-quiz{
+
+    height: 10vh;
+    position: relative;
+    text-align: center;
+    background-color:midnightblue;
+    color: lightsteelblue;
+    font-family: "Suez One";
+
+}
+
+.quizz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-title{
+    padding: 25px;
+    font-size:x-large;
+}
+
+.question {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    color: tomato;
+    font-family: "Suez One";
+    font-size: medium;
+    width: 80vh;
+    margin: 2% 30%;
+    border-radius: 20px;
+}
+
+.reponses{
+    display: flex;
+    margin : 5% 30%;
+    justify-content: center;
+    
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex:auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.oneReponse {
+
+    display: flex;
+    height: 60px;
+    width: 150px;
+    margin :5px;
+    padding: 5px;
+    background-color: azure;
+    word-wrap: break-word;
+    align-items: center;
+    
+}

@@ -7,7 +7,13 @@
     <title>Result</title>
 </head>
 <body>
-    <p>here is your result, you are most similar to</p> 
-    <p>Insert professor name</p>
+    <h2>Voici ton résultat, ton patronus est : </h2> 
+    <p><?php echo $Prenom?></p>
+    <p><?php echo $Nom?> </p>
+    
+    <p><img src="<?=URL?>images/prof/<?=$ID_prof?>.jpg" alt="photo de prof"></p>
+    
+    <p><?php echo $Description?></p>
+    <!-- <img src="/public/images/<?php $Nom ?>.jpg" alt=""> -->
 </body>
 </html>
