@@ -63,7 +63,7 @@ CREATE TABLE quizz_Internaute (
 
 /*questions*/
 INSERT INTO question (Libelle) VALUES 
-('Quel est votre chiffre préféré ?'),
+('Quel est votre nombre préféré ?'),
 ('Plutôt sucré ou salé ?'),
 ('Quel objet choisissez-vous ?'),
 ('Quel logiciel Adobe êtes-vous ?'),
@@ -76,14 +76,14 @@ INSERT INTO question (Libelle) VALUES
 ('Plutôt mer ou montagne ?'),
 ('Quel est votre signe astrologique préféré ?');
 
-/*réponses question Quel est votre chiffre préféré ?*/
+/*réponses question Quel est votre nombre préféré ?*/
 INSERT INTO reponse (Libelle, Photo, ID_Q) VALUES 
-('7','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre chiffre préféré ?')),
-('42','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre chiffre préféré ?')),
-('118','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre chiffre préféré ?')),
-('712','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre chiffre préféré ?')),
-('13','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre chiffre préféré ?')),
-('2','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre chiffre préféré ?'));
+('7','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre nombre préféré ?')),
+('42','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre nombre préféré ?')),
+('118','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre nombre préféré ?')),
+('712','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre nombre préféré ?')),
+('13','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre nombre préféré ?')),
+('2','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre nombre préféré ?'));
 
 /*réponses question Plutôt sucré ou salé ?*/
 INSERT INTO reponse (Libelle, Photo, ID_Q) VALUES 
@@ -164,12 +164,12 @@ INSERT INTO reponse (Libelle, Photo, ID_Q) VALUES
 
 /*réponses question Plutôt mer ou montagne ?*/
 INSERT INTO reponse (Libelle, Photo, ID_Q) VALUES 
-('1','',(SELECT ID_Q FROM question WHERE Libelle = 'Plutôt mer ou montagne ?')),
+('1 (mer)','',(SELECT ID_Q FROM question WHERE Libelle = 'Plutôt mer ou montagne ?')),
 ('2','',(SELECT ID_Q FROM question WHERE Libelle = 'Plutôt mer ou montagne ?')),
 ('3','',(SELECT ID_Q FROM question WHERE Libelle = 'Plutôt mer ou montagne ?')),
 ('4','',(SELECT ID_Q FROM question WHERE Libelle = 'Plutôt mer ou montagne ?')),
 ('5','',(SELECT ID_Q FROM question WHERE Libelle = 'Plutôt mer ou montagne ?')),
-('6','',(SELECT ID_Q FROM question WHERE Libelle = 'Plutôt mer ou montagne ?'));
+('6 (montagne)','',(SELECT ID_Q FROM question WHERE Libelle = 'Plutôt mer ou montagne ?'));
 
 /*réponses question Quel est votre signe astrologique préféré ?*/
 INSERT INTO reponse (Libelle, Photo, ID_Q) VALUES 
@@ -234,12 +234,12 @@ INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
 ((SELECT ID_prof FROM prof WHERE Nom = 'AKYUREK'),(SELECT ID_rep FROM reponse WHERE Libelle = "Les États-Unis")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'AKYUREK'),(SELECT ID_rep FROM reponse WHERE Libelle = "Les Beatles")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'AKYUREK'),(SELECT ID_rep FROM reponse WHERE Libelle = "Jaune")),
-((SELECT ID_prof FROM prof WHERE Nom = 'AKYUREK'),(SELECT ID_rep FROM reponse WHERE Libelle = "1")),
+((SELECT ID_prof FROM prof WHERE Nom = 'AKYUREK'),(SELECT ID_rep FROM reponse WHERE Libelle = "1 (mer)")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'AKYUREK'),(SELECT ID_rep FROM reponse WHERE Libelle = "Sagittaire"));
 
 /*rep ROUX*/
 INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
-((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "2" AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Quel est votre chiffre préféré ?"))),
+((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "2" AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Quel est votre nombre préféré ?"))),
 ((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "Sucré")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "Le pistolet à eau")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "Photoshop")),
@@ -299,7 +299,7 @@ INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
 
 /*rep LAPORTE*/
 INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
-((SELECT ID_prof FROM prof WHERE Nom = 'LAPORTE'),(SELECT ID_rep FROM reponse WHERE Libelle = "2" AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Quel est votre chiffre préféré ?"))),
+((SELECT ID_prof FROM prof WHERE Nom = 'LAPORTE'),(SELECT ID_rep FROM reponse WHERE Libelle = "2" AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Quel est votre nombre préféré ?"))),
 ((SELECT ID_prof FROM prof WHERE Nom = 'LAPORTE'),(SELECT ID_rep FROM reponse WHERE Libelle = "Salé")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'LAPORTE'),(SELECT ID_rep FROM reponse WHERE Libelle = "Le pistolet à eau")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'LAPORTE'),(SELECT ID_rep FROM reponse WHERE Libelle = "Photoshop")),
@@ -324,12 +324,12 @@ INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
 ((SELECT ID_prof FROM prof WHERE Nom = 'HERNANDEZ'),(SELECT ID_rep FROM reponse WHERE Libelle = "Le Japon")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'HERNANDEZ'),(SELECT ID_rep FROM reponse WHERE Libelle = "Kool and the gang")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'HERNANDEZ'),(SELECT ID_rep FROM reponse WHERE Libelle = "Bleu")),
-((SELECT ID_prof FROM prof WHERE Nom = 'HERNANDEZ'),(SELECT ID_rep FROM reponse WHERE Libelle = "6")),
+((SELECT ID_prof FROM prof WHERE Nom = 'HERNANDEZ'),(SELECT ID_rep FROM reponse WHERE Libelle = "6 (montagne)")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'HERNANDEZ'),(SELECT ID_rep FROM reponse WHERE Libelle = "Taureau"));
 
 /*rep VERGER*/
 INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
-((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "2" AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Quel est votre chiffre préféré ?"))),
+((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "2" AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Quel est votre nombre préféré ?"))),
 ((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "Sucré")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "La cuillère")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "Photoshop")),
@@ -339,7 +339,7 @@ INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
 ((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "Les États-Unis")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "Kool and the gang")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "Rouge")),
-((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "1")),
+((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "1 (mer)")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "Cancer"));
 
 /*rep SALVI*/
@@ -354,7 +354,7 @@ INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
 ((SELECT ID_prof FROM prof WHERE Nom = 'SALVI'),(SELECT ID_rep FROM reponse WHERE Libelle = "Les États-Unis")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'SALVI'),(SELECT ID_rep FROM reponse WHERE Libelle = "Daft Punk")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'SALVI'),(SELECT ID_rep FROM reponse WHERE Libelle = "Bleu")),
-((SELECT ID_prof FROM prof WHERE Nom = 'SALVI'),(SELECT ID_rep FROM reponse WHERE Libelle = "1")),
+((SELECT ID_prof FROM prof WHERE Nom = 'SALVI'),(SELECT ID_rep FROM reponse WHERE Libelle = "1 (mer)")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'SALVI'),(SELECT ID_rep FROM reponse WHERE Libelle = "Taureau"));
 
 /*rep DE SMET*/
@@ -389,7 +389,7 @@ INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
 
 /*rep FOUCHY*/
 INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
-((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "2" AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Quel est votre chiffre préféré ?"))),
+((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "2" AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Quel est votre nombre préféré ?"))),
 ((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "Sucré")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "La cuillère")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "Qu'est-ce ?")),
@@ -429,7 +429,7 @@ INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
 ((SELECT ID_prof FROM prof WHERE Nom = 'DE ROBILLARD'),(SELECT ID_rep FROM reponse WHERE Libelle = "L'Ouzbékistan")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'DE ROBILLARD'),(SELECT ID_rep FROM reponse WHERE Libelle = "Kiss")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'DE ROBILLARD'),(SELECT ID_rep FROM reponse WHERE Libelle = "Orange")),
-((SELECT ID_prof FROM prof WHERE Nom = 'DE ROBILLARD'),(SELECT ID_rep FROM reponse WHERE Libelle = "6")),
+((SELECT ID_prof FROM prof WHERE Nom = 'DE ROBILLARD'),(SELECT ID_rep FROM reponse WHERE Libelle = "6 (montagne)")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'DE ROBILLARD'),(SELECT ID_rep FROM reponse WHERE Libelle = "Capricorne"));
 
 /*rep SULAK*/
