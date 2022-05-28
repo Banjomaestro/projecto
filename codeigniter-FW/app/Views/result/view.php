@@ -11,7 +11,7 @@
     <p><?php echo $Prenom?></p>
     <p><?php echo $Nom?> </p>
     
-    <p><img src="/public/images/<?=$Nom?>.jpg" alt="image non trouvée"></p>
+    <p><img src="<?=URL?>images/prof/<?=$ID_prof?>.jpg" alt="photo de prof"></p>
     
     <p><?php echo $Description?></p>
     <!-- <img src="/public/images/<?php $Nom ?>.jpg" alt=""> -->

@@ -48,16 +48,30 @@ body{
 
 .reponses{
     display: flex;
-    margin : 5% 40%;
+    margin : 5% 30%;
+    justify-content: center;
+    
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex:auto;
     justify-content: center;
     align-items: center;
-
+    
 }
 
 .oneReponse {
 
-    height: 20px;
-    width: 50px;
+    display: flex;
+    height: 60px;
+    width: 150px;
     margin :5px;
+    padding: 5px;
     background-color: azure;
+    word-wrap: break-word;
+    align-items: center;
+    
 }
