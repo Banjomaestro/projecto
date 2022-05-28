@@ -11,10 +11,9 @@ body{
     color: darkblue;
 }
 
-.head-quiz{
+.head{
     display: flex;
     height: 10vh;
-    position: relative;
     justify-content: center;
     align-items: center;
     background-color:midnightblue;
@@ -23,10 +22,11 @@ body{
 
 }
 
-.quizz{
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     
 }
 
@@ -35,84 +35,59 @@ body{
     font-size:x-large;
 }
 
-.question {
+.titre {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: white;
     padding: 20px;
     text-align: left;
     color: tomato;
     font-family: "Suez One";
     font-size: medium;
+    margin: 2rem auto;
     width: 80vh;
-    margin: 2% 30%;
     border-radius: 20px;
+    
 }
 
-.reponses{
+
+
+.result{
     display: flex;
+    flex-direction: column;
     margin : 5% 30%;
     justify-content: center;
+    align-items: center;
     background-color: white;
     border-radius: 10px;
     width: 750px;
     overflow: hidden;
-    
-
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-    flex:auto;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.oneReponse {
-
-    list-style-type: none;
-    margin: 0.5rem;
-    font-size: 1.5em;
-    
-}
-
-label{
     font-family: "Suez One";
-    cursor: pointer;
+    
+
 }
 
-input[type="submit"]{
-    cursor: pointer;
-    background-color: midnightblue;
-    color: lightsteelblue;
-    display: block;
-    width: 100%;
-    cursor: pointer;
-    height: 3rem;
+a{
+    border : 2px solid;
+    border-color: tomato;
+    background-color: white;
+    padding: 10px;
+    outline: none;
+    text-decoration: none;
     font-family: "Suez One";
+    font-size: 1em;
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
 }
 
-input[type = "radio"]{
-    cursor: pointer;
-    size: 2em;
-}
-
-input[type="radio"]:checked{
-    color: tomato;
-}
 
 img{
     width: 300px;
     border-radius: 10px;
     border: 2px solid;
     border-color: tomato;
-}
-
-a{
-    border : 5px solid;
-    border-color: tomato;
-    background-color: white;
-    padding: 3px;
 }
