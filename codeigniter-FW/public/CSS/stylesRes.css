@@ -46,7 +46,7 @@ body{
     color: tomato;
     font-family: "Suez One";
     font-size: medium;
-    margin: 2rem auto;
+    margin: 2rem  auto 1rem;
     width: 80vh;
     border-radius: 20px;
     
@@ -65,6 +65,7 @@ body{
     width: 750px;
     overflow: hidden;
     font-family: "Suez One";
+    font-size: 1.5em;
     
 
 }
@@ -73,6 +74,7 @@ a{
     border : 2px solid;
     border-color: tomato;
     background-color: white;
+    color: midnightblue;
     padding: 10px;
     outline: none;
     text-decoration: none;
@@ -84,6 +86,10 @@ a{
     text-align: center;
 }
 
+a:hover{
+    background-color: tomato;
+    color: white;
+}
 
 img{
     width: 300px;
