@@ -9,7 +9,7 @@
 </head>
   <body>
     <div class="head">
-         <h1>Connectez-vous ici</h1>
+         <h1>Découvre dès maintenant qui est ton patronus parmi les profs les plus charismatiques de l'IMAC :)</h1>
     </div>
         <form role="form" method="post" action=""> <!--ex:'internaute/connexion_internaute' renvoie vers la page de Benjamin-->
             <?= csrf_field() ?>

@@ -9,9 +9,11 @@ class Pages extends BaseController
         if (isset($this->session->id))
         { 
             echo view('quizView/quiz_home');
+            echo view('templates/footer');
         }
         else 
             return view('IdView/connexion');
+            echo view('templates/footer');
     }
 
     public function view($page = 'home')
