@@ -99,11 +99,12 @@ class IdController extends BaseController
         }
     }
 
+    //logout function
     public function logout(){
-        $session = \Config\Services::session(); 
-        $session->destroy();
+        $session = \Config\Services::session(); //access to the session
+        $session->destroy(); //destroy the session to disconnect the user
         
-        return redirect()->to('');
+        return redirect()->to(''); //redirect to root
         
     }
 }

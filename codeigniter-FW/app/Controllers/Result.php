@@ -24,9 +24,11 @@ class Result extends BaseController
             $teacher = $model->getTeacher($answers);
             $name = $model3->getById($teacher);
             return view('result/view', $name);
+            
        }
        else 
             return view('IdView/connexion');
+            
 
     }
 

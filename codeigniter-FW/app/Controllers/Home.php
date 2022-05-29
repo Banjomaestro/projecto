@@ -10,6 +10,7 @@ class Home extends BaseController
         $session->set('id', 1);
 
         return view('IdView/connexion');
+        return view('templates/footer');
     }
 
     public function test(){
