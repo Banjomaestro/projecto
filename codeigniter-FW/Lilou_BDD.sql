@@ -73,7 +73,7 @@ INSERT INTO question (Libelle) VALUES
 ('Votre destination préférée ?'),
 ('Quel est votre groupe préféré ?'),
 ("Quel M&M's êtes-vous ?"),
-('Plutôt mer ou montagne ?'),
+('Plutôt mer (1) ou montagne (6) ?'),
 ('Quel est votre signe astrologique préféré ?');
 
 /*réponses question Quel est votre nombre préféré ?*/
@@ -194,7 +194,7 @@ INSERT INTO prof (Nom, Prenom, Photo, Description) VALUES
 ('RIEU', 'Alexandre', 'rieu', "Si vous vous demandez combien font 2+2, Alexandre Rieu vous répondra que c'est égal à 3 bien sûr ! Si vous jouez au foot avec lui, attention à ses passes en diagonale ! Vous ne pourrez pas dire qu'on ne vous a pas prévenu."),
 ('BIRI', 'Venceslas', 'biri', "Venceslas Biri, grand maître des lumières, son sourire rayonne peut-être même plus qu'un algorithme de lancer de rayon."),
 ('CHARPENTIER', 'Gaëlle', 'charpentier', "Gaëlle Charpentier est surement en train d'examiner le css du site en ce moment même. Accompagnée de ses fidèles félins, nous l'entendons déjà dire 'Mais il fallait mettre du display flex ici ! Olala mais où sont les alt des images...'"),
-('LAPORTE', 'Eric', 'laporte', "Eric Laporte est très généreux, il paraît même qu'à Noël, il enchaîne les listes de cadeaux pour faire plaisir  ses proches."),
+('LAPORTE', 'Eric', 'laporte', "Eric Laporte est très généreux, il paraît même qu'à Noël, il enchaîne les listes de cadeaux pour faire plaisir à ses proches."),
 ('HERNANDEZ', 'Jerome', 'hernandes', "Comme dirait Alaric (personnage très reconnu au sein de l'IMAC) : 'Plutot cool le boug'. Apprenez à nager car Jérome Hernandez vous fera surfer sur le web !"),
 ('VERGER', 'Émilie', 'verger', "Vous révez d'une version téléréalité d'artistes ? Emilie Verger est là pour vous ! Elle vous racontera tous les potins d'antant. Quoi ? Vlaminck a été mis sur le côté au début du fauvisme ? Mais c'est pas possible ça !"),
 ('SALVI', 'Patricia', 'salvi', "If you do not understand this paragraph, you probably never met Patricia Salvi. Thanks to her IMAC students are able to se la péter en codant in english :) "),
@@ -249,7 +249,7 @@ INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
 ((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "La Mongolie")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "Les Beatles")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "Verte")),
-((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "2" AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Plutôt mer ou montagne ?"))),
+((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "2" AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Plutôt mer (1) ou montagne (6) ?"))),
 ((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "Vierge"));
 
 /*rep RIEU*/
@@ -399,7 +399,7 @@ INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
 ((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "La Creuse")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "Daft Punk")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "Jaune")),
-((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "2"  AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Plutôt mer ou montagne ?"))),
+((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "2"  AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Plutôt mer (1) ou montagne (6) ?"))),
 ((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "Vierge"));
 
 /*rep VINCENT*/
@@ -444,5 +444,5 @@ INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
 ((SELECT ID_prof FROM prof WHERE Nom = 'SULAK'),(SELECT ID_rep FROM reponse WHERE Libelle = "L'Ouzbékistan")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'SULAK'),(SELECT ID_rep FROM reponse WHERE Libelle = "Village People")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'SULAK'),(SELECT ID_rep FROM reponse WHERE Libelle = "Verte")),
-((SELECT ID_prof FROM prof WHERE Nom = 'SULAK'),(SELECT ID_rep FROM reponse WHERE Libelle = "2"  AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Plutôt mer ou montagne ?"))),
+((SELECT ID_prof FROM prof WHERE Nom = 'SULAK'),(SELECT ID_rep FROM reponse WHERE Libelle = "2"  AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Plutôt mer (1) ou montagne (6) ?"))),
 ((SELECT ID_prof FROM prof WHERE Nom = 'SULAK'),(SELECT ID_rep FROM reponse WHERE Libelle = "Lion"));

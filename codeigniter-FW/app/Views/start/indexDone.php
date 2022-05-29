@@ -27,7 +27,11 @@
     <div class = "titre">
         <h3>Tu veux refaire le quizz ?</h3>
         <a href="Quiz">Recommencer !</a>
-    </div>      
+    </div>   
+    <div class = "titre">
+        <h3>Tu veux te déconnecter ?</h3>
+        <a href="<?php echo base_url(''); ?>">Déconnexion !</a> 
+    </div>       
             
         
     

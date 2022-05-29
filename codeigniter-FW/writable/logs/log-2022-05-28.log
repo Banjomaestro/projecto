@@ -256,3 +256,127 @@ CRITICAL - 2022-05-28 04:06:04 --> Trying to access array offset on value of typ
 #9 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
 #10 {main}
 >>>>>>> main
+CRITICAL - 2022-05-28 06:53:57 --> Undefined offset: 0
+#0 /var/www/projecto/codeigniter-FW/app/Models/quizzProfModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/projecto/codeigniter-FW/app/Controllers/Start.php(29): App\Models\quizzProfModel->getTeacher()
+#2 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Start->index()
+#3 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#7 {main}
+CRITICAL - 2022-05-28 06:54:04 --> Undefined offset: 0
+#0 /var/www/projecto/codeigniter-FW/app/Models/quizzProfModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/projecto/codeigniter-FW/app/Controllers/Start.php(29): App\Models\quizzProfModel->getTeacher()
+#2 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Start->index()
+#3 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#7 {main}
+CRITICAL - 2022-05-28 07:13:31 --> Trying to access array offset on value of type null
+#0 /var/www/projecto/codeigniter-FW/app/Models/quizzInternauteModel.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/projecto/codeigniter-FW/app/Controllers/Questions.php(65): App\Models\quizzInternauteModel->createQuizzInternaute()
+#2 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->create()
+#3 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#7 {main}
+ERROR - 2022-05-28 07:42:35 --> Column 'ID_ident' cannot be null
+CRITICAL - 2022-05-28 07:42:35 --> Column 'ID_ident' cannot be null
+#0 /var/www/projecto/codeigniter-FW/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/projecto/codeigniter-FW/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/projecto/codeigniter-FW/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/projecto/codeigniter-FW/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/projecto/codeigniter-FW/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /var/www/projecto/codeigniter-FW/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /var/www/projecto/codeigniter-FW/app/Models/quizzInternauteModel.php(120): CodeIgniter\Model->insert()
+#8 /var/www/projecto/codeigniter-FW/app/Controllers/Questions.php(65): App\Models\quizzInternauteModel->createQuizzInternaute()
+#9 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->create()
+#10 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#14 {main}
+ERROR - 2022-05-28 07:51:13 --> Table 'internaute.question' doesn't exist
+CRITICAL - 2022-05-28 07:51:13 --> Table 'internaute.question' doesn't exist
+#0 /var/www/projecto/codeigniter-FW/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/projecto/codeigniter-FW/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/projecto/codeigniter-FW/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/projecto/codeigniter-FW/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/projecto/codeigniter-FW/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/projecto/codeigniter-FW/app/Models/questionModel.php(28): CodeIgniter\BaseModel->first()
+#7 /var/www/projecto/codeigniter-FW/app/Controllers/Questions.php(37): App\Models\questionModel->getByKey()
+#8 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->questionDisplay()
+#9 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#13 {main}
+ERROR - 2022-05-28 07:55:52 --> Table 'internaute.quizz_Internaute' doesn't exist
+CRITICAL - 2022-05-28 07:55:52 --> Table 'internaute.quizz_Internaute' doesn't exist
+#0 /var/www/projecto/codeigniter-FW/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/projecto/codeigniter-FW/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/projecto/codeigniter-FW/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/projecto/codeigniter-FW/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/projecto/codeigniter-FW/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /var/www/projecto/codeigniter-FW/app/Models/quizzInternauteModel.php(60): CodeIgniter\BaseModel->findAll()
+#7 /var/www/projecto/codeigniter-FW/app/Controllers/Result.php(23): App\Models\quizzInternauteModel->getAllInternauteQuizz()
+#8 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Result->index()
+#9 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#13 {main}
+ERROR - 2022-05-28 07:56:01 --> Table 'internaute.question' doesn't exist
+CRITICAL - 2022-05-28 07:56:01 --> Table 'internaute.question' doesn't exist
+#0 /var/www/projecto/codeigniter-FW/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/projecto/codeigniter-FW/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/projecto/codeigniter-FW/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/projecto/codeigniter-FW/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/projecto/codeigniter-FW/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/projecto/codeigniter-FW/app/Models/questionModel.php(28): CodeIgniter\BaseModel->first()
+#7 /var/www/projecto/codeigniter-FW/app/Controllers/Questions.php(37): App\Models\questionModel->getByKey()
+#8 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->questionDisplay()
+#9 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#13 {main}
+ERROR - 2022-05-28 07:56:02 --> Table 'internaute.question' doesn't exist
+CRITICAL - 2022-05-28 07:56:02 --> Table 'internaute.question' doesn't exist
+#0 /var/www/projecto/codeigniter-FW/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/projecto/codeigniter-FW/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/projecto/codeigniter-FW/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/projecto/codeigniter-FW/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/projecto/codeigniter-FW/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/projecto/codeigniter-FW/app/Models/questionModel.php(28): CodeIgniter\BaseModel->first()
+#7 /var/www/projecto/codeigniter-FW/app/Controllers/Questions.php(37): App\Models\questionModel->getByKey()
+#8 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->questionDisplay()
+#9 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#13 {main}
+ERROR - 2022-05-28 07:56:02 --> Table 'internaute.question' doesn't exist
+CRITICAL - 2022-05-28 07:56:02 --> Table 'internaute.question' doesn't exist
+#0 /var/www/projecto/codeigniter-FW/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/projecto/codeigniter-FW/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/projecto/codeigniter-FW/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/projecto/codeigniter-FW/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/projecto/codeigniter-FW/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/projecto/codeigniter-FW/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/projecto/codeigniter-FW/app/Models/questionModel.php(28): CodeIgniter\BaseModel->first()
+#7 /var/www/projecto/codeigniter-FW/app/Controllers/Questions.php(37): App\Models\questionModel->getByKey()
+#8 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\Questions->questionDisplay()
+#9 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#13 {main}
