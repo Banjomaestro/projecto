@@ -57,9 +57,6 @@ class IdModel extends Model
         {
             $leBonMdp=$this->getById($identifiant)['mdp'];
 
-            echo $leBonMdp;
-            echo "lol";
-            echo $mdp;
             if(trim($leBonMdp)===trim($mdp)){
                 return true;
             }

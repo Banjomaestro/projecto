@@ -73,7 +73,7 @@ class IdController extends BaseController
         if ($this->request->getMethod() === 'post' && $model->identifiantCheck($this->request->getPost('Identifiant'))) 
         {  
 
-            echo md5($this->request->getPost('mdp'));
+            //echo md5($this->request->getPost('mdp'));
             if ($this->request->getMethod() === 'post' && $model->mdpCheck($this->request->getPost('Identifiant'), md5($this->request->getPost('mdp'))))
             {
                 $session = \Config\Services::session();  
