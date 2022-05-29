@@ -1,0 +1,29 @@
+READ ME
+
+Projet IMACTRONUS made by Lilou ALIDOR, Benjamin AMRANI, Lou COUARD, Pauline GOBE, Rémi POIRROUX
+
+Try the website here : http://prof-patronus.fr/
+Create an account and play !
+
+To try in local : 
+
+-Clone the repo
+-Create your database in local
+-Fill the database by copy/paste the content of the file "lilouBDD.sql" from codeigniter-FW in you mySQL.
+- You should put en env file in the root of codeigniter-FW
+-In the .env file decomment the lines 40 to 45 :
+	-- set "database.default.hostname = localhost"
+	-- set "database.default.database = your database name"
+	-- set "database.default.username = the username you use in mySQL"
+	-- set "database.default.password = your mySQL password"
+	-- set "database.default.DBDriver = MySQLi"
+	-- let "database.default.DBPrefix = "
+
+Congrats ! the database is connected to the php files !
+
+- to laucnh the website place yourself in codeigniter-FW and write in terminal "php spark serve"
+- go to you navigator and go to the localhost told by the terminal (shoud be localhost:8080)
+
+You can now launch the website in local ! 
+
+
