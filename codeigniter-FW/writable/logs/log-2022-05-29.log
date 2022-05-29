@@ -38,3 +38,10 @@ CRITICAL - 2022-05-29 05:42:37 --> Call to undefined method App\Models\IdModel::
 #4 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #5 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
 #6 {main}
+CRITICAL - 2022-05-29 07:31:10 --> Call to undefined method CodeIgniter\Session\Session::session_destroy()
+#0 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->logout()
+#1 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/pauline/Documents/S2/web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/home/pauline/D...')
+#5 {main}
