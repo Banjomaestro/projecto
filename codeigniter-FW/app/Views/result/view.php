@@ -24,9 +24,15 @@
         
         <p><img src="<?=URL?>images/prof/<?=$ID_prof?>.jpg" alt="photo de prof"></p>
         
-        <p><?php echo $Description?></p>
+        <div class ="descrip">
+            <p><?php echo $Description?></p>
+        </div>
         <!-- <img src="/public/images/<?php $Nom ?>.jpg" alt=""> -->
     </div>
     <a href="/start">Retour à l'accueil</a>
+    <div class = "titre">
+        <h3>Tu veux te déconnecter ?</h3>
+        <a href="<?php echo base_url(''); ?>">Déconnexion !</a> 
+    </div>  
 </body>
 </html>

@@ -105,15 +105,15 @@ input[type = "radio"]{
     size: 2em;
 }
 
-input[type="radio"]:checked{
+/* input[type="radio"]:checked{
     color: tomato;
-}
+} */
 
 img{
     width: 300px;
     border-radius: 10px;
-    border: 2px solid;
-    border-color: tomato;
+    /* border: 2px solid; */
+    /* border-color: tomato; */
 }
 
 a{

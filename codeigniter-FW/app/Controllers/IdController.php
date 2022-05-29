@@ -56,13 +56,11 @@ class IdController extends BaseController
             echo view('IdView/success');
         } 
         else if ($model->identifiantCheck($this->request->getPost('Identifiant'))==true){
-            echo view('templates/header', ['title' => 'Mauvais Identifiant']);
             echo view('IdView/errorSubscribe');
             echo view('templates/footer');
         }
         else 
         {
-            echo view('templates/header', ['title' => 'Créer un nouveau compte']);
             echo view('IdView/inscription');
             echo view('templates/footer');
         }
@@ -85,17 +83,14 @@ class IdController extends BaseController
                 //echo view('start/index.php');
                 echo view('templates/footer');
             }
-            echo view('templates/header', ['title' => 'Mauvais mot de passe']);
             echo view('IdView/errorMdp');
             echo view('templates/footer');
         } 
+
         else if ($model->identifiantCheck($this->request->getPost('Identifiant'))==false){
-            echo view('templates/header', ['title' => 'Identifiant non existant']);
             echo view('IdView/errorId');
             echo view('templates/footer');
         }
-      
-    
         else 
         {
             echo view('templates/header', ['title' => 'Accueil']);

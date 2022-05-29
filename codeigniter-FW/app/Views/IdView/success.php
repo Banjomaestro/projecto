@@ -1,1 +1,21 @@
-<b>Identifiant valide, compte créé</b> <br></b><a href="<?php echo base_url(''); ?>"> Veuillez-vous connecter ici</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/CSS/stylesRes.css" type="text/css">
+    <title>Sucess</title>
+</head>
+<body>
+<div class = "head">
+        <h1>Identifiant valide, compte crée</h1>
+</div>
+    <div class = "titre">
+        <h3>Veuillez-vous connecter ici</h3>
+        <a href="<?php echo base_url(''); ?>">Connexion</a> 
+</div>  
+    
+</body>
+</html>
+

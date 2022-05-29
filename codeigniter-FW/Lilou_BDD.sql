@@ -63,7 +63,7 @@ CREATE TABLE quizz_Internaute (
 
 /*questions*/
 INSERT INTO question (Libelle) VALUES 
-('Quel est votre chiffre préféré ?'),
+('Quel est votre nombre préféré ?'),
 ('Plutôt sucré ou salé ?'),
 ('Quel objet choisissez-vous ?'),
 ('Quel logiciel Adobe êtes-vous ?'),
@@ -73,17 +73,17 @@ INSERT INTO question (Libelle) VALUES
 ('Votre destination préférée ?'),
 ('Quel est votre groupe préféré ?'),
 ("Quel M&M's êtes-vous ?"),
-('Plutôt mer ou montagne ?'),
+('Plutôt mer (1) ou montagne (6) ?'),
 ('Quel est votre signe astrologique préféré ?');
 
-/*réponses question Quel est votre chiffre préféré ?*/
+/*réponses question Quel est votre nombre préféré ?*/
 INSERT INTO reponse (Libelle, Photo, ID_Q) VALUES 
-('7','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre chiffre préféré ?')),
-('42','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre chiffre préféré ?')),
-('118','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre chiffre préféré ?')),
-('712','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre chiffre préféré ?')),
-('13','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre chiffre préféré ?')),
-('2','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre chiffre préféré ?'));
+('7','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre nombre préféré ?')),
+('42','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre nombre préféré ?')),
+('118','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre nombre préféré ?')),
+('712','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre nombre préféré ?')),
+('13','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre nombre préféré ?')),
+('2','',(SELECT ID_Q FROM question WHERE Libelle = 'Quel est votre nombre préféré ?'));
 
 /*réponses question Plutôt sucré ou salé ?*/
 INSERT INTO reponse (Libelle, Photo, ID_Q) VALUES 
@@ -164,12 +164,12 @@ INSERT INTO reponse (Libelle, Photo, ID_Q) VALUES
 
 /*réponses question Plutôt mer ou montagne ?*/
 INSERT INTO reponse (Libelle, Photo, ID_Q) VALUES 
-('1','',(SELECT ID_Q FROM question WHERE Libelle = 'Plutôt mer ou montagne ?')),
+('1 (mer)','',(SELECT ID_Q FROM question WHERE Libelle = 'Plutôt mer ou montagne ?')),
 ('2','',(SELECT ID_Q FROM question WHERE Libelle = 'Plutôt mer ou montagne ?')),
 ('3','',(SELECT ID_Q FROM question WHERE Libelle = 'Plutôt mer ou montagne ?')),
 ('4','',(SELECT ID_Q FROM question WHERE Libelle = 'Plutôt mer ou montagne ?')),
 ('5','',(SELECT ID_Q FROM question WHERE Libelle = 'Plutôt mer ou montagne ?')),
-('6','',(SELECT ID_Q FROM question WHERE Libelle = 'Plutôt mer ou montagne ?'));
+('6 (montagne)','',(SELECT ID_Q FROM question WHERE Libelle = 'Plutôt mer ou montagne ?'));
 
 /*réponses question Quel est votre signe astrologique préféré ?*/
 INSERT INTO reponse (Libelle, Photo, ID_Q) VALUES 
@@ -188,22 +188,22 @@ INSERT INTO reponse (Libelle, Photo, ID_Q) VALUES
 
 /*Remplissage des profs*/
 INSERT INTO prof (Nom, Prenom, Photo, Description) VALUES
-('CHERRIER', 'Sylvain', 'cherrier', "bla-bla cherrier"),
-('AKYUREK', 'Keven', 'akyurek', "bla-bla akyurek"),
-('ROUX', 'Gabrielle', 'roux', "bla-bla roux"),
-('RIEU', 'Alexandre', 'rieu', "bla-bla rieu"),
-('BIRI', 'Venceslas', 'biri', "bla-bla biri"),
-('CHARPENTIER', 'Gaëlle', 'charpentier', "bla-bla charpentier"),
-('LAPORTE', 'Eric', 'laporte', "bla-bla laporte"),
-('HERNANDEZ', 'Jerome', 'hernandes', "bla-bla hernandez"),
-('VERGER', 'Émilie', 'verger', "bla-bla verger"),
-('SALVI', 'Patricia', 'salvi', "bla-bla salvi"),
-('DE SMET', 'Enguerrand', 'desmet', "bla-bla desmet"),
-('NOVELLI', 'Jean-Christophe', 'novelli', "bla-bla novelli"),
-('FOUCHY', 'Jules', 'fouchy', "bla-bla fouchy"),
-('VINCENT', 'Steeve', 'vincent', "bla-bla vincent"),
-('DE ROBILLARD', 'Gaëtan', 'robillard', "bla-bla robillard"),
-('SULAK', 'Özlem', 'sulak', "bla-bla sulak");
+('CHERRIER', 'Sylvain', 'cherrier', "Leader du groupe IMAC (ou de son groupe de rock), Sylvain Cherrier est soucieux du bien-être de ses étudiants. Parfois maladroit, il sait se remettre en question et donne tout ce qu'il peut pour aider ses élèves. Soyez soyeux comme Sylvain Cherrier. (et on ne dit pas ça parce qu'il va nous noter ;) )"),
+('AKYUREK', 'Keven', 'akyurek', "Keven Akyurek ne loupe pas une occasion pour amuser la galerie. Grand maître de l'audiovisuel, Les objectifs et les micros n'ont plus de secret pour lui !"),
+('ROUX', 'Gabrielle', 'roux', "Grande adepte du google form, Gabrielle Roux vous demandera toujours de remplir un questionnaire créatif afin de savoir si vous avez compris la leçon. Faites attention, elle vous embarquera sûrement dans un ARG sans que vous ne vous en rendiez compte !"),
+('RIEU', 'Alexandre', 'rieu', "Si vous vous demandez combien font 2+2, Alexandre Rieu vous répondra que c'est égal à 3 bien sûr ! Si vous jouez au foot avec lui, attention à ses passes en diagonale ! Vous ne pourrez pas dire qu'on ne vous a pas prévenu."),
+('BIRI', 'Venceslas', 'biri', "Venceslas Biri, grand maître des lumières, son sourire rayonne peut-être même plus qu'un algorithme de lancer de rayon."),
+('CHARPENTIER', 'Gaëlle', 'charpentier', "Gaëlle Charpentier est surement en train d'examiner le css du site en ce moment même. Accompagnée de ses fidèles félins, nous l'entendons déjà dire 'Mais il fallait mettre du display flex ici ! Olala mais où sont les alt des images...'"),
+('LAPORTE', 'Eric', 'laporte', "Eric Laporte est très généreux, il paraît même qu'à Noël, il enchaîne les listes de cadeaux pour faire plaisir à ses proches."),
+('HERNANDEZ', 'Jerome', 'hernandes', "Comme dirait Alaric (personnage très reconnu au sein de l'IMAC) : 'Plutot cool le boug'. Apprenez à nager car Jérome Hernandez vous fera surfer sur le web !"),
+('VERGER', 'Émilie', 'verger', "Vous révez d'une version téléréalité d'artistes ? Emilie Verger est là pour vous ! Elle vous racontera tous les potins d'antant. Quoi ? Vlaminck a été mis sur le côté au début du fauvisme ? Mais c'est pas possible ça !"),
+('SALVI', 'Patricia', 'salvi', "If you do not understand this paragraph, you probably never met Patricia Salvi. Thanks to her IMAC students are able to se la péter en codant in english :) "),
+('DE SMET', 'Enguerrand', 'desmet', "Enguerrand de Smet est un service après vente disponible 24h/24h. Il vous réparera tous vos bugs en un clin d'oeil et peut même réparer à domicile grâce à son One Wheel, un moyen de transport révolutionnaire"),
+('NOVELLI', 'Jean-Christophe', 'novelli', "Passionné par tout ce qui se termine en -TIQUE. comme la zétéTIQUE ou les mathémaTIQUES, Jean-Christophe, tel un mousTIQUE saura piquer votre curiosité pour ces matières fantasTIQUES"),
+('FOUCHY', 'Jules', 'fouchy', "Jules Fouchy est une pile électrique. Passionné, il vous en fera voir de toutes les couleurs avec son art génératif ! Attention sa jovialité est contagieuse. Après une courte discussion avec Jules vous vous trouverez peut-être à sautiller comme un cabri dans la rue"),
+('VINCENT', 'Steeve', 'vincent', "Steeve aka Stev aka Stive aka Stiv aka..., vous l'aurez compris, cet énergumène a su se faire un nom (ou plusieurs) dans le domaine de la programmation."),
+('DE ROBILLARD', 'Gaëtan', 'robillard', "Gaëtan de Robillard, enfant star de l'IMAC, tous les élèves le connaissent, le reconnaissent et lui vouent un culte particulier."),
+('SULAK', 'Özlem', 'sulak', "Özlem Sualak est à la racine d'une fascination envers le grand McLuhan, qui se passe de promo en promo. Si son nom ne vous évoque rien...Gare à vous !");
 
 /*Réponses des profs*/
 
@@ -234,12 +234,12 @@ INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
 ((SELECT ID_prof FROM prof WHERE Nom = 'AKYUREK'),(SELECT ID_rep FROM reponse WHERE Libelle = "Les États-Unis")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'AKYUREK'),(SELECT ID_rep FROM reponse WHERE Libelle = "Les Beatles")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'AKYUREK'),(SELECT ID_rep FROM reponse WHERE Libelle = "Jaune")),
-((SELECT ID_prof FROM prof WHERE Nom = 'AKYUREK'),(SELECT ID_rep FROM reponse WHERE Libelle = "1")),
+((SELECT ID_prof FROM prof WHERE Nom = 'AKYUREK'),(SELECT ID_rep FROM reponse WHERE Libelle = "1 (mer)")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'AKYUREK'),(SELECT ID_rep FROM reponse WHERE Libelle = "Sagittaire"));
 
 /*rep ROUX*/
 INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
-((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "2" AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Quel est votre chiffre préféré ?"))),
+((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "2" AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Quel est votre nombre préféré ?"))),
 ((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "Sucré")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "Le pistolet à eau")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "Photoshop")),
@@ -249,7 +249,7 @@ INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
 ((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "La Mongolie")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "Les Beatles")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "Verte")),
-((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "2" AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Plutôt mer ou montagne ?"))),
+((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "2" AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Plutôt mer (1) ou montagne (6) ?"))),
 ((SELECT ID_prof FROM prof WHERE Nom = 'ROUX'),(SELECT ID_rep FROM reponse WHERE Libelle = "Vierge"));
 
 /*rep RIEU*/
@@ -299,7 +299,7 @@ INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
 
 /*rep LAPORTE*/
 INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
-((SELECT ID_prof FROM prof WHERE Nom = 'LAPORTE'),(SELECT ID_rep FROM reponse WHERE Libelle = "2" AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Quel est votre chiffre préféré ?"))),
+((SELECT ID_prof FROM prof WHERE Nom = 'LAPORTE'),(SELECT ID_rep FROM reponse WHERE Libelle = "2" AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Quel est votre nombre préféré ?"))),
 ((SELECT ID_prof FROM prof WHERE Nom = 'LAPORTE'),(SELECT ID_rep FROM reponse WHERE Libelle = "Salé")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'LAPORTE'),(SELECT ID_rep FROM reponse WHERE Libelle = "Le pistolet à eau")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'LAPORTE'),(SELECT ID_rep FROM reponse WHERE Libelle = "Photoshop")),
@@ -324,12 +324,12 @@ INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
 ((SELECT ID_prof FROM prof WHERE Nom = 'HERNANDEZ'),(SELECT ID_rep FROM reponse WHERE Libelle = "Le Japon")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'HERNANDEZ'),(SELECT ID_rep FROM reponse WHERE Libelle = "Kool and the gang")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'HERNANDEZ'),(SELECT ID_rep FROM reponse WHERE Libelle = "Bleu")),
-((SELECT ID_prof FROM prof WHERE Nom = 'HERNANDEZ'),(SELECT ID_rep FROM reponse WHERE Libelle = "6")),
+((SELECT ID_prof FROM prof WHERE Nom = 'HERNANDEZ'),(SELECT ID_rep FROM reponse WHERE Libelle = "6 (montagne)")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'HERNANDEZ'),(SELECT ID_rep FROM reponse WHERE Libelle = "Taureau"));
 
 /*rep VERGER*/
 INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
-((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "2" AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Quel est votre chiffre préféré ?"))),
+((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "2" AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Quel est votre nombre préféré ?"))),
 ((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "Sucré")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "La cuillère")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "Photoshop")),
@@ -339,7 +339,7 @@ INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
 ((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "Les États-Unis")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "Kool and the gang")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "Rouge")),
-((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "1")),
+((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "1 (mer)")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'VERGER'),(SELECT ID_rep FROM reponse WHERE Libelle = "Cancer"));
 
 /*rep SALVI*/
@@ -354,7 +354,7 @@ INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
 ((SELECT ID_prof FROM prof WHERE Nom = 'SALVI'),(SELECT ID_rep FROM reponse WHERE Libelle = "Les États-Unis")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'SALVI'),(SELECT ID_rep FROM reponse WHERE Libelle = "Daft Punk")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'SALVI'),(SELECT ID_rep FROM reponse WHERE Libelle = "Bleu")),
-((SELECT ID_prof FROM prof WHERE Nom = 'SALVI'),(SELECT ID_rep FROM reponse WHERE Libelle = "1")),
+((SELECT ID_prof FROM prof WHERE Nom = 'SALVI'),(SELECT ID_rep FROM reponse WHERE Libelle = "1 (mer)")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'SALVI'),(SELECT ID_rep FROM reponse WHERE Libelle = "Taureau"));
 
 /*rep DE SMET*/
@@ -389,7 +389,7 @@ INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
 
 /*rep FOUCHY*/
 INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
-((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "2" AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Quel est votre chiffre préféré ?"))),
+((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "2" AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Quel est votre nombre préféré ?"))),
 ((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "Sucré")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "La cuillère")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "Qu'est-ce ?")),
@@ -399,7 +399,7 @@ INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
 ((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "La Creuse")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "Daft Punk")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "Jaune")),
-((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "2"  AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Plutôt mer ou montagne ?"))),
+((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "2"  AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Plutôt mer (1) ou montagne (6) ?"))),
 ((SELECT ID_prof FROM prof WHERE Nom = 'FOUCHY'),(SELECT ID_rep FROM reponse WHERE Libelle = "Vierge"));
 
 /*rep VINCENT*/
@@ -429,7 +429,7 @@ INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
 ((SELECT ID_prof FROM prof WHERE Nom = 'DE ROBILLARD'),(SELECT ID_rep FROM reponse WHERE Libelle = "L'Ouzbékistan")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'DE ROBILLARD'),(SELECT ID_rep FROM reponse WHERE Libelle = "Kiss")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'DE ROBILLARD'),(SELECT ID_rep FROM reponse WHERE Libelle = "Orange")),
-((SELECT ID_prof FROM prof WHERE Nom = 'DE ROBILLARD'),(SELECT ID_rep FROM reponse WHERE Libelle = "6")),
+((SELECT ID_prof FROM prof WHERE Nom = 'DE ROBILLARD'),(SELECT ID_rep FROM reponse WHERE Libelle = "6 (montagne)")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'DE ROBILLARD'),(SELECT ID_rep FROM reponse WHERE Libelle = "Capricorne"));
 
 /*rep SULAK*/
@@ -444,5 +444,5 @@ INSERT INTO quizz_Prof (ID_prof, ID_rep) VALUES
 ((SELECT ID_prof FROM prof WHERE Nom = 'SULAK'),(SELECT ID_rep FROM reponse WHERE Libelle = "L'Ouzbékistan")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'SULAK'),(SELECT ID_rep FROM reponse WHERE Libelle = "Village People")),
 ((SELECT ID_prof FROM prof WHERE Nom = 'SULAK'),(SELECT ID_rep FROM reponse WHERE Libelle = "Verte")),
-((SELECT ID_prof FROM prof WHERE Nom = 'SULAK'),(SELECT ID_rep FROM reponse WHERE Libelle = "2"  AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Plutôt mer ou montagne ?"))),
+((SELECT ID_prof FROM prof WHERE Nom = 'SULAK'),(SELECT ID_rep FROM reponse WHERE Libelle = "2"  AND ID_Q = (SELECT ID_Q FROM question WHERE Libelle = "Plutôt mer (1) ou montagne (6) ?"))),
 ((SELECT ID_prof FROM prof WHERE Nom = 'SULAK'),(SELECT ID_rep FROM reponse WHERE Libelle = "Lion"));

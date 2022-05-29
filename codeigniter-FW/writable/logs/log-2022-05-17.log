@@ -1313,6 +1313,7 @@ CRITICAL - 2022-05-17 03:03:05 --> syntax error, unexpected 'echo' (T_ECHO)
 #9 {main}
 =======
 >>>>>>> LouID
+<<<<<<< Updated upstream
 CRITICAL - 2022-05-17 03:27:44 --> syntax error, unexpected token "<<"
 #0 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/mac/Docu...')
 #1 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
@@ -1425,6 +1426,29 @@ CRITICAL - 2022-05-17 04:05:22 --> md5(): Passing null to parameter #1 ($string)
 #6 /Users/mac/Documents/lessons/imac/first year/second semester/dev web/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/Users/mac/Docu...')
 #7 {main}
 >>>>>>> 6ea99775cdb3b43b1192da748e1f22d16611a91a
+<<<<<<< HEAD
+=======
+CRITICAL - 2022-05-17 03:21:13 --> syntax error, unexpected '<<' (T_SL)
+#0 /var/www/projecto/codeigniter-FW/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/projecto/codeigniter-FW/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(797): class_exists()
+#5 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#9 {main}
+CRITICAL - 2022-05-17 03:25:08 --> Call to undefined method App\Models\IdModel::getByKey
+#0 /var/www/projecto/codeigniter-FW/app/Controllers/IdController.php(30): CodeIgniter\Model->__call()
+#1 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->view()
+#2 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#6 {main}
+>>>>>>> Stashed changes
+=======
 <<<<<<< HEAD
 CRITICAL - 2022-05-17 04:35:40 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
 #0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing ...', '/Users/mac/Docu...', 76)
@@ -2226,3 +2250,4 @@ CRITICAL - 2022-05-17 05:52:16 --> Cannot add or update a child row: a foreign k
 #13 /var/www/IMAC1_Semestre2/Projet/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/IMAC1_...')
 #14 {main}
 >>>>>>> ecfdab0c22fa53b5a25a2e41f847163862851a53
+>>>>>>> main

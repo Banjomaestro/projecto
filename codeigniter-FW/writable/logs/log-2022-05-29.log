@@ -1,0 +1,40 @@
+CRITICAL - 2022-05-29 05:38:30 --> Call to undefined method App\Models\IdModel::getByKey
+#0 /var/www/projecto/codeigniter-FW/app/Controllers/IdController.php(30): CodeIgniter\Model->__call()
+#1 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->view()
+#2 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#6 {main}
+CRITICAL - 2022-05-29 05:39:11 --> Call to undefined method App\Models\IdModel::getByKey
+#0 /var/www/projecto/codeigniter-FW/app/Controllers/IdController.php(30): CodeIgniter\Model->__call()
+#1 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->view()
+#2 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#6 {main}
+CRITICAL - 2022-05-29 05:39:54 --> Call to undefined method App\Models\IdModel::getByKey
+#0 /var/www/projecto/codeigniter-FW/app/Controllers/IdController.php(30): CodeIgniter\Model->__call()
+#1 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->view()
+#2 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#6 {main}
+CRITICAL - 2022-05-29 05:42:19 --> Call to undefined method App\Models\IdModel::getByKey
+#0 /var/www/projecto/codeigniter-FW/app/Controllers/IdController.php(30): CodeIgniter\Model->__call()
+#1 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->view()
+#2 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#6 {main}
+CRITICAL - 2022-05-29 05:42:37 --> Call to undefined method App\Models\IdModel::getByKey
+#0 /var/www/projecto/codeigniter-FW/app/Controllers/IdController.php(30): CodeIgniter\Model->__call()
+#1 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(832): App\Controllers\IdController->view()
+#2 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/projecto/codeigniter-FW/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/projecto/codeigniter-FW/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/projecto/codeigniter-FW/system/Commands/Server/rewrite.php(43): require_once('/var/www/projec...')
+#6 {main}

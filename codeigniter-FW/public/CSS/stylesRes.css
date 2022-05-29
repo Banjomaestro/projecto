@@ -52,12 +52,28 @@ body{
     
 }
 
+.descrip{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 750px;
+    overflow: hidden;
+    font-family: "Suez One";
+    font-size: 1em; 
+}
+
 
 
 .result{
     display: flex;
     flex-direction: column;
-    margin : 5% 30%;
+    margin : 1em;
+    padding : 1em;
     justify-content: center;
     align-items: center;
     background-color: white;
