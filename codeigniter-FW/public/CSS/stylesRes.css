@@ -113,3 +113,24 @@ img{
     border: 2px solid;
     border-color: tomato;
 }
+
+input[type="submit"]{
+    border : 2px solid;
+    border-color: tomato;
+    background-color: white;
+    color: midnightblue;
+    padding: 10px;
+    outline: none;
+    text-decoration: none;
+    font-family: "Suez One";
+    font-size: 1em;
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+input[type="submit"]:hover{
+    background-color: tomato;
+    color: white;
+}

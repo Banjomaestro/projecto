@@ -20,9 +20,8 @@
                     <br>
                     <h3>Mot de passe</h3>
                     <input class="form-control" placeholder="Entrez un mot de passe" name="mdp" type="password" value="" required>
-                    <br>  
-                    <a>                  
-                    <input class="btn btn-lg btn-success btn-block" type="submit" value="connexion" name="Connexion" > </a>
+                    <br>                  
+                    <input class="btn btn-lg btn-success btn-block" type="submit" value="Connexion" name="Connexion" > 
                  </div>
             </fieldset>
         </form>
