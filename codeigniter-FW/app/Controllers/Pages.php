@@ -12,7 +12,7 @@ class Pages extends BaseController
             echo view('templates/footer');
         }
         else 
-            return view('IdView/connexion');
+            echo view('IdView/connexion');
             echo view('templates/footer');
     }
 

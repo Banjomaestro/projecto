@@ -24,7 +24,7 @@
 		<?php $session = \Config\Services::session(); 
 		$session->set('idQ', 1);
 		$id = 1; ?>
-		<?= '<a href="/Questions/'.$id.'">Let\'s goooooo</a>' ?> <!-- redirect to the first question displaying -->
+		<?= '<a href="/Questions/'.$id.'">Let\'s goooooo</a>' ?> 
 	</div>
 
 	

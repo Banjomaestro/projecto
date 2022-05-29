@@ -16,7 +16,7 @@ class IdController extends BaseController
         ];
 
         echo view('templates/header', $data);
-        echo view('IdView/overview', $data);
+        echo view('IdView/connexion', $data);
         echo view('templates/footer', $data);
         
     }
@@ -54,6 +54,7 @@ class IdController extends BaseController
             );
            
             echo view('IdView/success');
+            echo view('templates/footer');
         } 
         else if ($model->identifiantCheck($this->request->getPost('Identifiant'))==true){
             echo view('IdView/errorSubscribe');

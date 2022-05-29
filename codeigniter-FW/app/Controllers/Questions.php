@@ -22,15 +22,7 @@ class Questions extends BaseController
 
 
     public function questionDisplay($key = 1){
-        //access to the session
-        $session = \Config\Services::session();  
-        //check if the user is connected 
-        if (isset($session->id))
-        { 
-            return view('quizView/quiz_home');
-        }
-        else 
-            return view('IdView/connexion');
+
 
         //access to the models
         $questionmodel = model(questionModel::Class);

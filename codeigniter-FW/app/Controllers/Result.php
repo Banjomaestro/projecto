@@ -23,11 +23,15 @@ class Result extends BaseController
             $answers = $model2->getAllInternauteQuizz($session->id);
             $teacher = $model->getTeacher($answers);
             $name = $model3->getById($teacher);
-            return view('result/view', $name);
+            echo view('result/view', $name);
+            echo view('templates/footer');
+         
             
        }
-       else 
-            return view('IdView/connexion');
+       else {
+            echo view('IdView/connexion');
+            echo view('templates/footer');
+       }   
             
 
     }
