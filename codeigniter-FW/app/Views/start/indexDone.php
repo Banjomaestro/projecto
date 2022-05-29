@@ -20,7 +20,9 @@
             <p> <?php echo $Nom?></p>
             <p><img src="<?=URL?>images/prof/<?=$ID_prof?>.jpg" alt="photo de prof"></p>
             <!-- <p><link rel="image prof" type="image/jpg" href="/images/9.jpg"/></p> -->
-            <p><?php echo $Description?></p> 
+            <div class ="descrip">
+                <p><?php echo $Description?></p> 
+            </div>
         </div>
     </div>
 
