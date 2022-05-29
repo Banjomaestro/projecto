@@ -98,6 +98,14 @@ class IdController extends BaseController
             echo view('templates/footer');
         }
     }
+
+    public function logout(){
+        $session = \Config\Services::session(); 
+        $session->destroy();
+        
+        return redirect()->to('');
+        
+    }
 }
 
     

@@ -30,7 +30,7 @@
     </div>   
     <div class = "titre">
         <h3>Tu veux te déconnecter ?</h3>
-        <a href="<?php echo base_url(''); ?>">Déconnexion !</a> 
+        <a href="<?php echo base_url('/Logout'); ?>">Déconnexion !</a> 
     </div>       
             
         
