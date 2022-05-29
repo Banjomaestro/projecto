@@ -13,6 +13,11 @@
         <h2>Bienvenue ! Commence le quizz pour découvrir quel prof de l'IMAC te correspond le plus !</h2>
         <a href="Quiz">Commencer !</a>
     </div>
+
+    <div class = "titre">
+        <h3>Tu veux te déconnecter ?</h3>
+        <a href="<?php echo base_url('/Logout'); ?>">Déconnexion !</a> 
+    </div>    
     
 </body>
 </html>
